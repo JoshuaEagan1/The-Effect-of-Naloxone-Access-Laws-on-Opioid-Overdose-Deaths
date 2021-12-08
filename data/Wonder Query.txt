@@ -1,0 +1,31 @@
+3:29PM 20210830
+
+Opioid Overdose Deaths
+
+This is how I will split out the data once I request everything I need:
+ [1] "Cocaine (T40.5)"                                                    
+ [2] "Heroin (T40.1)"                                                   
+ [3] "Methadone (T40.3)"                                                 
+ [4] "Natural & semi-synthetic opioids (T40.2)"                
+ [5] "Natural & semi-synthetic opioids, incl. methadone (T40.2, T40.3)"
+ [6] "Natural, semi-synthetic, & synthetic opioids, incl. methadone (T40.2-T40.4)"
+ [7] "Number of Deaths" 
+ [8] "Number of Drug Overdose Deaths"           
+ [9] "Opioids (T40.0-T40.4,T40.6)"         
+[10] "Percent with drugs specified" DROP      
+[11] "Psychostimulants with abuse potential (T43.6)"
+[12] "Synthetic opioids, excl. methadone (T40.4)"
+
+These are the sub fields I'll need to query to build the panel dataset
+T40.0 (Opium)
+T40.1 (Heroin)
+T40.2 (Other opioids)
+T40.3 (Methadone)
+T40.4 (Other synthetic narcotics)
+T40.5 (Cocaine)
+T40.6 (Other and unspecified narcotics)
+T43.6 (Psychostimulants with abuse potential)
+"Number of Deaths" 
+"Number of Drug Overdose Deaths"   
+
+https://wonder.cdc.gov/mcd.html

@@ -1,0 +1,348 @@
+---
+title: "The Effect of Naloxone Access Laws on Opioid Overdose Deaths"
+author: "Joshua Eagan"
+date: "November 9, 2021"
+bibliography: ["references.bib"]
+fontsize: 12pt
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+#loading packages
+library(tidyverse)
+library(table1)
+library(tidyverse)
+library(reshape2)
+library(lmtest)
+library(sandwich)
+library(fixest)
+
+#importing data
+load("C:/Users/Josh/OneDrive - University of Missouri/econometrics 2021/final project/data/clean/clean_monthly_panel.R")
+load("C:/Users/Josh/OneDrive - University of Missouri/econometrics 2021/final project/data/clean/clean_yearly_panel.R")
+
+#redefining Opioid overdose deaths:
+yearly_panel<-yearly_panel %>% mutate(Opioids_Death_Rate=(Opioids_deaths)/Population)
+
+#making the heatmap
+
+#Get lower triangle of the correlation matrix
+  get_lower_tri<-function(cormat){
+    cormat[upper.tri(cormat)] <- NA
+    return(cormat)
+  }
+  # Get upper triangle of the correlation matrix
+  get_upper_tri <- function(cormat){
+    cormat[lower.tri(cormat)]<- NA
+    return(cormat)
+  }
+  
+mydata <- yearly_panel[, c(3, 23, 17:22)]
+cormat <- round(cor(mydata),2)
+upper_tri <- get_upper_tri(cormat)
+melted_cormat <- melt(upper_tri, na.rm = TRUE)
+ggheatmap <- ggplot(data = melted_cormat, aes(Var2, Var1, fill = value))+
+ geom_tile(color = "white")+
+ scale_fill_gradient2(low = "red", high = "blue", mid = "white", 
+   midpoint = 0, limit = c(-1,1), space = "Lab", 
+   name="Pearson\nCorrelation") +
+  theme_minimal()+ 
+ theme(axis.text.x = element_text(angle = 45, vjust = 1, 
+    size = 12, hjust = 1))+
+ coord_fixed()
+ggheatmap<-ggheatmap + 
+geom_text(aes(Var2, Var1, label = value), color = "black", size = 4) +
+theme(
+  axis.title.x = element_blank(),
+  axis.title.y = element_blank(),
+  panel.grid.major = element_blank(),
+  panel.border = element_blank(),
+  panel.background = element_blank(),
+  axis.ticks = element_blank(),
+  legend.justification = c(1, 0),
+  legend.position = c(0.6, 0.7),
+  legend.direction = "horizontal")+
+  guides(fill = guide_colorbar(barwidth = 7, barheight = 1,
+                title.position = "top", title.hjust = 0.5))
+
+```
+
+# Introduction
+
+Naloxone Access Laws aim to increase access to Naloxone hydroxide, an opioid antagonist which can temporarily reverse the effects of an opioid overdose if administered nasally or intramuscularly. In the four-year period leading up to 2018, almost all states adopted some set of laws providing for expanded naloxone access; either by establishing a statewide standing order of the drug or legally protecting doctors who prescribe it to their patients. In the wake of these reforms, there has been considerable interest in their effects. One line of thinking says that if people who use opioids are rational decision makers and naloxone access decreases their chances of dying from an opioid overdose, they will respond to an increase in naloxone access by ramping up their usage of opioids. This could partially or fully offset any reduction in deaths caused by naloxone access. Conversely, many people believe that to whatever extent opioid users increase their use of opioids in response to Naloxone Access Laws, the reduction in mortality from overdoses reversed by naloxone outweighs any increase in opioid mortality due to changes in use patterns. 
+
+In this paper, I attempt to uncover the effects of statewide Naloxone Access Laws on opioid overdose mortality using observational data. I use legal data from the Prescription Drug Abuse Policy System and Law Atlas and mortality data from the Center for Disease Control to construct a panel data set and estimate Difference in Differences using the Two-Way Fixed Effects Estimation strategy. Due to methodological concerns illuminated by recent research, I present a thorough discussion of the limitations of this analysis and how future research could address these concerns.
+
+# Literature Review
+The quasi-experimental literature evaluating this policy finds mixed results with two papers (released nearly simultaneously) finding opposite effects. @doleac_moral_2018 find that NAL fails to decrease opioid overdose deaths while having the unintended consequence of increasing prescription opioid misuse. Conversely, @rees_little_2017 find that NAL decreases opioid overdose deaths. They find no statistically significant effects of NAL on prescription opioid misuse. 
+
+The literature examining smaller instances where access to naloxone expanded, on the other hand, seems to uphold that an increase in the availability of naloxone leads to a reduction in overdose deaths. @albert_project_2011 examined the effects of Project Lazarus, an overdose prevention program in a North Carolina town which, among other things, distributed naloxone. In the year project Lazarus was implemented, there was a statistically significant decrease in opioid overdose deaths, but it is impossible to know whether this decrease can be attributed to the availability of naloxone or the other interventions of project Lazarus. [@alexander_y_walley_opioid_2013] examined the effects of the Overdose Education and Naloxone Distribution (OEND) program in Massachusetts by comparing communities that participated to communities that didn't participate. The authors find a large decrease in the number of opioid deaths in participating communities relative to communities that did not participate in OEND.
+
+# Data
+I construct two panel datasets: one containing 10800 monthly observations of all 50 states, excluding Washington, DC, from Jan, 1999 to Jan, 2017 and another containing yearly observations of the 50 states from 1999 through 2017. To build these tables, I employ data from a variety of sources. I obtain the effective dates of the legalization of syringe possession and Morphine Equivalent Daily Dose (MEDD) policies, which put a cap on the amount of opioids that can be prescribed to a patient daily, from data released as a part of the Policy Surveillance Program by Law Atlas.^[Following the definition used by both the Law Atlas and PDAPS, I define effective date as the following, "This date is the most recent effective date of the legal text captured for this place. The effective date represents the date the policy coded was put into effect." We use this date instead of the date each policy was passed.] Next, I obtain data from the Prescription Drug Abuse Policy System (PDAPS) on the effective dates of each of the following policies:
+
+* Medical Marijuana (MM) Laws 
+* Prescription Drug Monitoring Program (PDMP) laws which create a statewide database of opioid prescriptions for doctors to check before issuing an additional prescription
+* Good Samaritan Laws which protect someone who calls 911 in the event of a medical emergency and/or a person experiencing a medical emergency from prosecution of certain drug and alcohol crimes
+* Naloxone Access Laws (NAL) which aim to expand access to naloxone usually by removing prescription requirements for possession of naloxone
+
+Using the effective date of the first passage of each policy, I construct two panels (one yearly and one monthly) of dummy variables that take a value of 0 when the policy is not in effect and a value of 1 if the policy is in effect sometime before the end of the current time period. To see the same plot for the other policy indicator variables, see the appendix.
+
+```{R, fig.align="center", fig.cap="Passage of Naloxone Access Laws over Time"}
+yearly_panel %>% group_by(state) %>%
+        summarize(num_NAL_years=sum(NAL)) %>%
+        merge(yearly_panel) %>%
+        mutate(state=factor(state, levels = unique(state[order(num_NAL_years, state)])),
+                        NAL=as.factor(NAL)) %>%
+ggplot(aes(x = year, y = state, fill = NAL)) +
+                geom_tile(colour="black", show.legend=T)+
+                scale_fill_manual(values= c("white", "red"))+
+                scale_x_discrete(position = "top")+
+                xlab("Year")+
+                ylab("State")+
+                theme_bw()
+```
+
+Next, I retrieve state by time panels containing mortality information from the Center for Disease Control (CDC) WONDER query tool. This tool aggregates individual data from death certificates containing information on contributing causes of death.^[The categories for contributing cause of death come from IDC-10 codes, specifically "T codes" specifying contributing causes of death due to different types of drug poisonings. The WONDER tool can be found at [this URL](https://wonder.cdc.gov/mcd.html)] Using data from this tool, I construct two panels covering the same states and times as the legal data panels discussed above. These data contain fields for the number of deaths in the following categories:
+
+* fatal overdoses from opium (T40.0)
+* fatal overdoses from heroin (T40.1)
+* fatal overdoses from natural and semi-synthetic opioids, including methadone (T40.2-T40.3)
+* fatal overdoses from natural, semi-synthetic, and synthetic opioids, including methadone (T40.2-T40.4)
+* fatal overdoses from methadone (T40.3)
+* fatal overdoses from other opioids (T40.2)
+* fatal overdoses from all opioids (T40.0-T40.4,T40.6)
+* fatal overdoses from cocaine (T40.5)
+* fatal overdoses from unspecified narcotics (T40.6)
+* fatal overdoses from other synthetic narcotics (T40.4)
+* fatal overdoses from psycho-stimulants with abuse potential (T43.6)
+* total drug overdose deaths 
+* total deaths
+
+Since mortality information from the CDC is censored in state x time observations with fewer than 10 deaths, the main analysis of this paper focuses on the state by year panel. The CDC data includes state by time level population, which I use to create population scaled versions of the mortality variables. After constructing these panels, they are merged with the legal data panels to form the full panels to be used in the analysis. 
+
+# Naive Analysis
+
+As a first pass at examining the relationships between each of the policy indicator variables and the opioid overdose death rate, I construct a matrix of correlations across each of these variables (see figure 3 in the appendix.) As we can see in this table, many of the policy controls are highly correlated with our NAL variable and each of these controls are positively correlated with the opioid overdose death rate. Therefore, omission of these controls from our model will bias the coefficient on NAL upward. In addition, we can see that larger states are slightly more likely to pass each of these drug policies, but they have lower opioid overdose death rates. This means that omission of population in the regression model could bias the estimation of the effect of NAL on opioid overdose deaths downward.
+
+## Multivariable Regression
+
+To estimate the effects of drug paraphernalia decriminalization laws, I use Ordinary Least Squares Regression to estimate the following equation:
+
+$$Y_{it}=\gamma_0+\gamma_1X_{it} + \epsilon_{it} $$
+
+where $Y_{it}$ is the number of opioid overdose deaths in each state by year realization, $X_{it}$ is the matrix whose columns (1 for each drug policy) are binary variables that take the value $1$ when a policy is in effect in a given state in that year and a value of $0$ when a policy is not in effect. $\gamma_1$ is a vector of coefficients $\beta_1, \beta_2, ..., \beta_6$ estimated to minimize $\sum_{1}^{n}\epsilon_{it}^2$ in the above equation.
+
+I begin by estimating the simple linear regression equation, with no policy controls in model 1. I then add in controls one at a time in descending order of correlation with NAL (see figure 3 in the appendix for correlations).
+
+\newpage
+
+```{r}
+
+#run an OLS regression of opioid overdose deaths on the policy binary variables
+model_1<-feols(fml= Opioids_Death_Rate ~ NAL, data=yearly_panel, se="hetero")
+model_2<-feols(fml= Opioids_Death_Rate ~ NAL + goodsam, data=yearly_panel, se="hetero")
+model_3<-feols(fml= Opioids_Death_Rate ~ NAL + goodsam + MM, data=yearly_panel, se="hetero")
+model_4<-feols(fml= Opioids_Death_Rate ~ NAL + goodsam + MM + legal_syringes, data=yearly_panel, se="hetero")
+model_5<-feols(fml= Opioids_Death_Rate ~ NAL + goodsam + MM + legal_syringes + MEDD, data=yearly_panel, se="hetero")
+model_6<-feols(fml= Opioids_Death_Rate ~ NAL + goodsam + MM + legal_syringes + MEDD + PDMP, data=yearly_panel, se="hetero")
+model_7<-feols(fml= Opioids_Death_Rate ~ NAL + goodsam + MM + legal_syringes + MEDD + PDMP + Population, data=yearly_panel, se="hetero")
+
+knitr::kable(etable(model_1, model_2, model_3, model_4, model_5, model_6, model_7, depvar = F,
+                    dict=c(legal_syringes="Legal Syringes", goodsam="Goodsam"))[-10:-11,], caption = "OLS Regressions of Opioid Overdose Deaths on Policy Variables")
+
+```
+
+Unsurprisingly, the simple linear regression model regression model indicates that a state passing NAL leads to a large increase in the overdose death rate, a statistically significant increase of .00007. If this model were identified correctly, this would mean that NAL caused the opioid death rate to nearly double. Since the average opioid death rate in the sample is slightly smaller than this at .00006, this is a very economically significant effect. However, these results are drastically overstated because this model suffers from omitted variable bias lacking policy controls, a population control variable, and fixed effects to prevent comparisons across states and over time.
+
+When considering just one additional control, the passage of a Good Samaritan Law, the effect size on $\beta_1$, the coefficient on the NAL indicator variable, shrinks by nearly half. Adding a second control variable, an indicator for the passage of a Medical Marijuana Law, further reduces the size of $\beta_1$. Next, we consider the effects of the passage of the passage of a law providing legalized syringe access to people who use drugs. This control is initially statistically insignificant for all models considered. However, the control variable for Prescription Drug Monitoring (PDMP) Laws enters the model with statistically significant positive effects on opioid death rate. MEDD policies have no statistically significant effect on the opioid overdose death rate in any of the models where they are considered, and PDMPs are positively associated with the overdose death rate. The population control, however, seems to decrease the opioid overdose death rate. With the introduction of the last four controls, $\beta_1$ bounces around .00004, retaining its significance at the .1% level.
+
+Since the policy indicator variable for whether a state has legalized syringe access and the indicator for whether a state has a Morphine Equivalent Daily Dose law each enter the OLS model insignificantly, I test the null hypothesis that the effect of each of these policies jointly is null. To do this, I conduct a Wald test after estimation of model 7, the model including each of the controls. This test yields an F statistic of 2.98, meaning that the probability of joint nullity of these two variables is slightly above 5%, so we fail to reject the null hypothesis at the 5% level. For this reason, I prefer the nested model that drops the controls for these policy variables over model 7.
+
+```{R}
+#wald test of joint significance for syringe exchange and MEDD
+test_out<-wald(model_7, keep = c("legal_syringes", "MEDD"), print=FALSE) %>% as.data.frame()
+knitr::kable(test_out, col.names=c("F Statistic", "P Value", "DF 1", "DF 2", "Standard Errors"))
+```
+
+Although interesting, this analysis is plagued by a severe form of bias. In panel data, it is important to control for fixed effects across states and over time. In our example, the dependent variable, the opioid death rate, increases monumentally over time due to the opioid crisis in the US. Many of these policies were designed specifically to mitigate the ongoing crisis, so we can expect that the policies are being disproportionately passed in states at times where opioid overdose deaths are on the rise. Adding 49 indicator variables for all but 1 state (one state is omitted due to multicollinearity) and 18 year indicator variables for all but 1 year (one year is omitted due to multicolinearity) would mitigate this problem by forcing the model to estimate $\beta_1$ within states and years. This model could be a well identified Difference in Differences model, provided that states are trending together in the dependent variable. However, if any additional variables that I fail to control for are associated (in time and location) with the passage of NAL, this model would still suffer from omitted variable bias. 
+
+# Advanced Analysis
+
+## Specification
+
+To address the concerns brought up in the naive analysis, I alter equation 1 to force estimation of the treatment effect of $\beta_1$ within states by adding state fixed effects to the panel. I also add indicator variables for each year to control for differences across time in opioid overdose deaths.
+
+$$Y_{it}=\alpha_i + \delta_t + \beta_1n_i + \gamma X_{it} + \epsilon_{it}$$
+
+Since it is likely that there is heteroskedasticity across states, I cluster standard errors by state in the OLS estimation of the above equation. This staggered difference in differences (DiD) specification is sufficient for the causal interpretation of $\beta_1$ if the parallel trends assumption is satisfied. In other words, states must be trending together in their opioid overdose deaths prior to the passage of a naloxone access law to ensure $\beta_1$ is not biased. To investigate this assumption, I estimate an event study below. In this plot, I omit the year before treatment (-1) and combine all years after the fifth year after treatment.
+
+```{R, fig.align="center", fig.cap="Event Study Decomposing the effects of DiD by Year"}
+treat_year_table<-yearly_panel %>% group_by(state) %>% filter(NAL==1) %>% summarise(treat_year=min(year))
+yearly_panel<-merge(yearly_panel, treat_year_table) %>% mutate(treat_year=as.numeric(year)-as.numeric(treat_year)) %>% arrange(state, year)
+rm(treat_year_table)
+yearly_panel<-yearly_panel %>% mutate(`Years Until Passage of NAL`=as.factor(case_when(treat_year>5~5, T~treat_year)))
+feols(fml= Opioids_Death_Rate ~ i(`Years Until Passage of NAL`, ref="-1") | state + year + goodsam + MM + legal_syringes + MEDD + PDMP, data=yearly_panel, cluster="state") %>%
+        coefplot(main="")
+```
+
+We can observe a flat pretrend from about 16 years before the passage of a naloxone access law until about seven years before treatment. At this point, predicted number of opioid overdose deaths begins trending downward. This phenomenon, commonly known as an Ashenfelter Dip, suggests that the timing of treatment across states may be non-random. In other words, states might be passing Naloxone Access Laws in response to something that affects the opioid overdose mortality rate. This suggests that states that have not already passed Naloxone Access Laws might not be good counterfactuals for states that have already passed them.
+
+Next, I run a regression to check which observables in my data correspond with an increase in the likelihood of the passage of a Naloxone Access Law. 
+
+$$
+n_{it} = \alpha_i + \delta_t + \gamma X_{it} + \epsilon_{it}
+$$
+If in the estimation of $n_{it}$, any of the controls in $X_{it}$ influence the passage of NAL, these controls are associated with the timing of the passage of Naloxone Access Laws across states.
+
+```{R}
+model_1<-feols(fml= NAL ~ goodsam | state + year, data=yearly_panel, cluster="state")
+model_2<-feols(fml= NAL ~ goodsam + MM | state + year, data=yearly_panel, cluster="state")
+model_3<-feols(fml= NAL ~ goodsam + MM + legal_syringes | state + year, data=yearly_panel, cluster="state")
+model_4<-feols(fml= NAL ~ goodsam + MM + legal_syringes + MEDD | state + year, data=yearly_panel, cluster="state")
+model_5<-feols(fml= NAL ~ goodsam + MM + legal_syringes + MEDD + PDMP | state + year, data=yearly_panel, cluster="state")
+model_6<-feols(fml= NAL ~ goodsam + MM + legal_syringes + MEDD + PDMP | state + year, data=yearly_panel, cluster="state")
+
+knitr::kable(etable(model_1, model_2, model_3, model_4, model_5, model_6, depvar = F,
+                    dict=c(legal_syringes="Legal Syringes", goodsam="Goodsam"))[-10:-11,], caption = "Checking the Relationship between the Passage of NAL and Other Policies")
+
+```
+
+The only control that can predict the passage of NAL with a significant degree of accuracy is the passage of a Good Samaritan Law. This will be the most important control in the final model. One of our observables that likely impacts mortality is highly associated with the passage of NAL, so we might be concerned that there are other variables that we do not observe that have the same properties which are problematic for Difference in Differences estimation. Any such variables that we cannot observe will lead to omitted variable bias in our final model.
+
+One last concern is that a staggered difference in differences model might be biased when there is a trending dependent variable. Recent work on this topic has showed that the estimator for Difference in Differences can be decomposed into four sets of comparisons depending on whether states are early or late adopters of a policy [@NBERw25018]. This paper also used a simulation to show that DiD can produce biased estimates because early adopters might not be good counterfactuals for late adopters when the dependent variable is trending (which is true in our case).
+
+## Results
+
+Although it is questionable whether the key assumption is satisfied for $\beta_1$ to be interpreted as the effect of Naloxone Access Laws on mortality, I proceed with the estimation of the Difference in Differences model.
+
+```{r}
+#run an OLS regression of opioid overdose deaths on the policy binary variables
+model<-feols(fml= Opioids_Death_Rate ~ NAL + goodsam + MM + legal_syringes + MEDD + PDMP | state + year, data=yearly_panel, cluster="state")
+knitr::kable(etable(model, depvar = F,
+                    dict=c(legal_syringes="Legal Syringes", goodsam="Goodsam")), caption = "Two Way Fixed Effects Estimation of Difference in Differences")
+```
+
+The model indicates that there is no effect of Naloxone Access Laws on opioid overdose mortality. The coefficient $\beta_1$ is positive, but not statistically different from zero. In fact, the only policy that seems to impact mortality in the model is Medical Marijuana Laws. According to the model, the passage of a Medical Marijuana Law increases the opioid mortality rate by %.00256. This is a quite large amount considering that the average opioid death rate is %.00793 across all observations. However, as the identifying assumption is weak at best, we can only believe these results to the extent that we believe that states trend together in opioid overdose mortality before the passage of a Medical Marijuana Law and would have trended together afterward had no medical marijuana law been passed.
+
+
+# Discussion
+
+This analysis, like the two prior papers that attempt to use Two Way Fixed Effects (TWFE) to uncover the effects of Naloxone Access Laws, suffers a severe form of bias. Since the dependent variable is trending, the TWFE estimator is biased as proved by Goodman-Bacon, 2019. In this paper, the authors demonstrate that the TWFE estimator can be decomposed into groups based on the timing of treatment. The estimates for these groups are functions of the variance-covariance matrix, leading to higher weights on observations near the median group to receive treatment. Since this evidence was published after the publication of Doleac and Mukherjee (2018) and Rees et. al. (2019), neither of these papers mention this form of bias or attempt to correct for it. Therefore, the evidence on the effects of Naloxone Access Legislation have not caught up to the econometrics literature, which suggests the TWFE estimates are biased in this setting.
+
+Fortunately, several papers have been released which provide hope that the Treatment Effect on the Treated can still be recovered in this setting (Callaway and Sant'Anna 2021) [@sun_estimating_2021]. These methodologies attempt to estimate each of the decomposed effects derived by Goodman-Bacon, 2019. It is possible to implement the Calaway Sant'Anna (CS) Difference in Differences estimator in R using the "did" package^[This package is a available on [CRAN](https://cran.r-project.org/web/packages/did/index.html)]. Future research looking the effects of Naloxone Access Laws would benefit from using the CS approach or one of the other proposed methodologies to remedy the bias of using TWFE because opioid overdose deaths are trending upward. 
+
+# Conclusion
+
+There are serious concerns in using a staggered Difference in Differences model to evaluate the effects of Naloxone Access Laws. Most importantly, the dependent variable, opioid overdose deaths, is trending upward over time. This will lead to a biased estimate of the treatment effect of Naloxone Access Laws on the treated states. In addition, The event study challenges the Parallel Trends Assumption: there is a "dip" in the estimated effect of Naloxone Access Laws in five years before the policy's passage. This suggests that states might have selected into treatment, although this story seems odd: we would think that states would select into Naloxone Access Laws due to an increase in opioid overdose deaths, not a decrease. Fortunately, there is a way to mitigate the first concern: using the CS difference in differences estimator instead of the TWFE estimator. The literature on the effects of Naloxone Access Laws has not caught up to this methodological concern, however. Future research using difference in differences to evaluate the effects of Naloxone Access Laws should use the CS estimator or another estimator that remedies the bias introduced when using the TWFE estimator in a staggered difference in differences model with a trending dependent variable. Meanwhile, policy makers should take the policy evaluation literature on Naloxone Access Laws with a grain of salt.
+
+
+```{r echo=FALSE}
+table1::label(yearly_panel$MM) <- "Medical Marijuana"
+table1::label(yearly_panel$PDMP) <- "Prescription Drug Monitoring Programs"
+table1::label(yearly_panel$legal_syringes) <- "Legal Syringes"
+table1::label(yearly_panel$goodsam) <- "Good Samaritan"
+table1::label(yearly_panel$MEDD) <- "Morphine Equivalent Daily Dose"
+table1::label(yearly_panel$NAL) <- "Naloxone Access"
+
+table1::table1(~MM + PDMP + legal_syringes + goodsam + MEDD + NAL , data = yearly_panel, transpose=F, caption="Table A1: Descriptive Statistics for Policy Indicator Variables")
+```
+
+```{R, fig.align="center", fig.cap=paste("Yearly Percentage of the US Population to Fatally Overdose")}
+
+yearly_panel %>% 
+        group_by(year) %>% 
+        summarise(Opioids_Death_Rate=(sum(Opioids_deaths)/sum(Population))*100) %>%
+        ggplot(aes(x=year, y=Opioids_Death_Rate, group=1))+
+        geom_path()+
+        ylab("(Number of Opioid Overdoses / Population) x 100")+
+        xlab("Year")+
+        theme_bw()
+
+```
+
+```{r, fig.align="center", fig.cap=paste("Correlation Matrix Heatmap")}
+#create a matrix of correlations
+ggheatmap
+
+```
+
+
+```{R, fig.align="center", fig.cap="Passage of Medical Marijuana Laws over Time"}
+yearly_panel %>% group_by(state) %>%
+        summarize(num_policy_years=sum(MM)) %>%
+        merge(yearly_panel) %>%
+        mutate(state=factor(state, levels = unique(state[order(num_policy_years, state)])),
+                        MM=as.factor(MM)) %>%
+ggplot(aes(x = year, y = state, fill = MM)) +
+                geom_tile(colour="black", show.legend=T)+
+                scale_fill_manual(values= c("white", "green"))+
+                scale_x_discrete(position = "top")+
+                xlab("Year")+
+                ylab("State")+
+                theme_bw()
+```
+```{R, fig.align="center", fig.cap="Passage of Perscription Drug Monitoring Laws over Time"}
+yearly_panel %>% group_by(state) %>%
+        summarize(num_policy_years=sum(PDMP)) %>%
+        merge(yearly_panel) %>%
+        mutate(state=factor(state, levels = unique(state[order(num_policy_years, state)])),
+                        PDMP=as.factor(PDMP)) %>%
+ggplot(aes(x = year, y = state, fill = PDMP)) +
+                geom_tile(colour="black", show.legend=T)+
+                scale_fill_manual(values= c("white", "purple"))+
+                scale_x_discrete(position = "top")+
+                xlab("Year")+
+                ylab("State")+
+                theme_bw()
+```
+
+```{R, fig.align="center", fig.cap="Passage of Syringe Legalization over Time"}
+yearly_panel %>% group_by(state) %>%
+        summarize(num_policy_years=sum(legal_syringes)) %>%
+        merge(yearly_panel) %>%
+        mutate(state=factor(state, levels = unique(state[order(num_policy_years, state)])),
+                        legal_syringes=as.factor(legal_syringes)) %>%
+ggplot(aes(x = year, y = state, fill = legal_syringes)) +
+                geom_tile(colour="black", show.legend=T)+
+                scale_fill_manual(values= c("white", "yellow"))+
+                scale_x_discrete(position = "top")+
+                xlab("Year")+
+                ylab("State")+
+                theme_bw()
+```
+```{R, fig.align="center", fig.cap="Passage of Good Samaritan Laws over Time"}
+yearly_panel %>% group_by(state) %>%
+        summarize(num_policy_years=sum(goodsam)) %>%
+        merge(yearly_panel) %>%
+        mutate(state=factor(state, levels = unique(state[order(num_policy_years, state)])),
+                        goodsam=as.factor(goodsam)) %>%
+ggplot(aes(x = year, y = state, fill = goodsam)) +
+                geom_tile(colour="black", show.legend=T)+
+                scale_fill_manual(values= c("white", "blue"))+
+                scale_x_discrete(position = "top")+
+                xlab("Year")+
+                ylab("State")+
+                theme_bw()
+```
+
+
+```{R, fig.align="center", fig.cap="Passage of Morphine Equivalent Daily Dose Laws over Time"}
+yearly_panel %>% group_by(state) %>%
+        summarize(num_policy_years=sum(MEDD)) %>%
+        merge(yearly_panel) %>%
+        mutate(state=factor(state, levels = unique(state[order(num_policy_years, state)])),
+                        MEDD=as.factor(MEDD)) %>%
+ggplot(aes(x = year, y = state, fill = MEDD)) +
+                geom_tile(colour="black", show.legend=T)+
+                scale_fill_manual(values= c("white", "orange"))+
+                scale_x_discrete(position = "top")+
+                xlab("Year")+
+                ylab("State")+
+                theme_bw()
+```
+
+# Bibliography
+

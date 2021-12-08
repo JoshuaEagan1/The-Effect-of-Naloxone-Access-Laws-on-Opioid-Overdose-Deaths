@@ -1,0 +1,12 @@
+3:29PM 20210830
+
+Opioid Overdose Deaths
+
+T40.0 (Opium)
+T40.1 (Heroin)
+T40.2 (Other opioids)
+T40.3 (Methadone)
+T40.4 (Other synthetic narcotics)
+T40.6 (Other and unspecified narcotics)
+
+https://wonder.cdc.gov/mcd.html

@@ -1,0 +1,1182 @@
+"Notes"	"State"	"State Code"	"Year"	"Year Code"	Deaths	Population	Crude Rate
+	"Alabama"	"01"	"1999"	"1999"	Suppressed	4430141	Suppressed
+	"Alabama"	"01"	"2000"	"2000"	Suppressed	4447100	Suppressed
+	"Alabama"	"01"	"2001"	"2001"	Suppressed	4467634	Suppressed
+	"Alabama"	"01"	"2002"	"2002"	Suppressed	4480089	Suppressed
+	"Alabama"	"01"	"2003"	"2003"	Suppressed	4503491	Suppressed
+	"Alabama"	"01"	"2004"	"2004"	Suppressed	4530729	Suppressed
+	"Alabama"	"01"	"2005"	"2005"	Suppressed	4569805	Suppressed
+	"Alabama"	"01"	"2006"	"2006"	Suppressed	4628981	Suppressed
+	"Alabama"	"01"	"2007"	"2007"	Suppressed	4672840	Suppressed
+	"Alabama"	"01"	"2008"	"2008"	Suppressed	4718206	Suppressed
+	"Alabama"	"01"	"2009"	"2009"	Suppressed	4757938	Suppressed
+	"Alabama"	"01"	"2010"	"2010"	Suppressed	4779736	Suppressed
+	"Alabama"	"01"	"2011"	"2011"	Suppressed	4802740	Suppressed
+	"Alabama"	"01"	"2012"	"2012"	Suppressed	4822023	Suppressed
+	"Alabama"	"01"	"2013"	"2013"	Suppressed	4833722	Suppressed
+	"Alabama"	"01"	"2014"	"2014"	Suppressed	4849377	Suppressed
+	"Alabama"	"01"	"2015"	"2015"	Suppressed	4858979	Suppressed
+	"Alabama"	"01"	"2016"	"2016"	Suppressed	4863300	Suppressed
+	"Alabama"	"01"	"2017"	"2017"	Suppressed	4874747	Suppressed
+	"Alabama"	"01"	"2018"	"2018"	Suppressed	4887871	Suppressed
+	"Alabama"	"01"	"2019"	"2019"	Suppressed	4903185	Suppressed
+"Total"	"Alabama"	"01"			Suppressed	98682634	Suppressed
+	"Alaska"	"02"	"1999"	"1999"	Suppressed	624779	Suppressed
+	"Alaska"	"02"	"2000"	"2000"	Suppressed	626932	Suppressed
+	"Alaska"	"02"	"2001"	"2001"	Suppressed	633714	Suppressed
+	"Alaska"	"02"	"2002"	"2002"	Suppressed	642337	Suppressed
+	"Alaska"	"02"	"2003"	"2003"	Suppressed	648414	Suppressed
+	"Alaska"	"02"	"2004"	"2004"	Suppressed	659286	Suppressed
+	"Alaska"	"02"	"2005"	"2005"	Suppressed	666946	Suppressed
+	"Alaska"	"02"	"2006"	"2006"	Suppressed	675302	Suppressed
+	"Alaska"	"02"	"2007"	"2007"	Suppressed	680300	Suppressed
+	"Alaska"	"02"	"2008"	"2008"	Suppressed	687455	Suppressed
+	"Alaska"	"02"	"2009"	"2009"	Suppressed	698895	Suppressed
+	"Alaska"	"02"	"2010"	"2010"	Suppressed	710231	Suppressed
+	"Alaska"	"02"	"2011"	"2011"	Suppressed	722718	Suppressed
+	"Alaska"	"02"	"2012"	"2012"	Suppressed	731449	Suppressed
+	"Alaska"	"02"	"2013"	"2013"	Suppressed	735132	Suppressed
+	"Alaska"	"02"	"2014"	"2014"	Suppressed	736732	Suppressed
+	"Alaska"	"02"	"2015"	"2015"	Suppressed	738432	Suppressed
+	"Alaska"	"02"	"2016"	"2016"	Suppressed	741894	Suppressed
+	"Alaska"	"02"	"2017"	"2017"	Suppressed	739795	Suppressed
+	"Alaska"	"02"	"2018"	"2018"	Suppressed	737438	Suppressed
+	"Alaska"	"02"	"2019"	"2019"	Suppressed	731545	Suppressed
+"Total"	"Alaska"	"02"			Suppressed	14569726	Suppressed
+	"Arizona"	"04"	"1999"	"1999"	Suppressed	5023823	Suppressed
+	"Arizona"	"04"	"2000"	"2000"	Suppressed	5130632	Suppressed
+	"Arizona"	"04"	"2001"	"2001"	Suppressed	5273477	Suppressed
+	"Arizona"	"04"	"2002"	"2002"	Suppressed	5396255	Suppressed
+	"Arizona"	"04"	"2003"	"2003"	Suppressed	5510364	Suppressed
+	"Arizona"	"04"	"2004"	"2004"	Suppressed	5652404	Suppressed
+	"Arizona"	"04"	"2005"	"2005"	Suppressed	5839077	Suppressed
+	"Arizona"	"04"	"2006"	"2006"	Suppressed	6029141	Suppressed
+	"Arizona"	"04"	"2007"	"2007"	Suppressed	6167681	Suppressed
+	"Arizona"	"04"	"2008"	"2008"	Suppressed	6280362	Suppressed
+	"Arizona"	"04"	"2009"	"2009"	Suppressed	6343154	Suppressed
+	"Arizona"	"04"	"2010"	"2010"	Suppressed	6392017	Suppressed
+	"Arizona"	"04"	"2011"	"2011"	Suppressed	6482505	Suppressed
+	"Arizona"	"04"	"2012"	"2012"	Suppressed	6553255	Suppressed
+	"Arizona"	"04"	"2013"	"2013"	Suppressed	6626624	Suppressed
+	"Arizona"	"04"	"2014"	"2014"	Suppressed	6731484	Suppressed
+	"Arizona"	"04"	"2015"	"2015"	Suppressed	6828065	Suppressed
+	"Arizona"	"04"	"2016"	"2016"	Suppressed	6931071	Suppressed
+	"Arizona"	"04"	"2017"	"2017"	Suppressed	7016270	Suppressed
+	"Arizona"	"04"	"2018"	"2018"	Suppressed	7171646	Suppressed
+	"Arizona"	"04"	"2019"	"2019"	Suppressed	7278717	Suppressed
+"Total"	"Arizona"	"04"			Suppressed	130658024	Suppressed
+	"Arkansas"	"05"	"1999"	"1999"	Suppressed	2651860	Suppressed
+	"Arkansas"	"05"	"2000"	"2000"	Suppressed	2673400	Suppressed
+	"Arkansas"	"05"	"2001"	"2001"	Suppressed	2691571	Suppressed
+	"Arkansas"	"05"	"2002"	"2002"	Suppressed	2705927	Suppressed
+	"Arkansas"	"05"	"2003"	"2003"	Suppressed	2724816	Suppressed
+	"Arkansas"	"05"	"2004"	"2004"	Suppressed	2749686	Suppressed
+	"Arkansas"	"05"	"2005"	"2005"	Suppressed	2781097	Suppressed
+	"Arkansas"	"05"	"2006"	"2006"	Suppressed	2821761	Suppressed
+	"Arkansas"	"05"	"2007"	"2007"	Suppressed	2848650	Suppressed
+	"Arkansas"	"05"	"2008"	"2008"	Suppressed	2874554	Suppressed
+	"Arkansas"	"05"	"2009"	"2009"	Suppressed	2896843	Suppressed
+	"Arkansas"	"05"	"2010"	"2010"	Suppressed	2915918	Suppressed
+	"Arkansas"	"05"	"2011"	"2011"	Suppressed	2937979	Suppressed
+	"Arkansas"	"05"	"2012"	"2012"	Suppressed	2949131	Suppressed
+	"Arkansas"	"05"	"2013"	"2013"	Suppressed	2959373	Suppressed
+	"Arkansas"	"05"	"2014"	"2014"	Suppressed	2966369	Suppressed
+	"Arkansas"	"05"	"2015"	"2015"	Suppressed	2978204	Suppressed
+	"Arkansas"	"05"	"2016"	"2016"	Suppressed	2988248	Suppressed
+	"Arkansas"	"05"	"2017"	"2017"	Suppressed	3004279	Suppressed
+	"Arkansas"	"05"	"2018"	"2018"	Suppressed	3013825	Suppressed
+	"Arkansas"	"05"	"2019"	"2019"	Suppressed	3017804	Suppressed
+"Total"	"Arkansas"	"05"			Suppressed	60151295	Suppressed
+	"California"	"06"	"1999"	"1999"	Suppressed	33499204	Suppressed
+	"California"	"06"	"2000"	"2000"	Suppressed	33871648	Suppressed
+	"California"	"06"	"2001"	"2001"	Suppressed	34479458	Suppressed
+	"California"	"06"	"2002"	"2002"	Suppressed	34871843	Suppressed
+	"California"	"06"	"2003"	"2003"	Suppressed	35253159	Suppressed
+	"California"	"06"	"2004"	"2004"	Suppressed	35574576	Suppressed
+	"California"	"06"	"2005"	"2005"	Suppressed	35827943	Suppressed
+	"California"	"06"	"2006"	"2006"	Suppressed	36021202	Suppressed
+	"California"	"06"	"2007"	"2007"	Suppressed	36250311	Suppressed
+	"California"	"06"	"2008"	"2008"	Suppressed	36604337	Suppressed
+	"California"	"06"	"2009"	"2009"	Suppressed	36961229	Suppressed
+	"California"	"06"	"2010"	"2010"	Suppressed	37253956	Suppressed
+	"California"	"06"	"2011"	"2011"	Suppressed	37691912	Suppressed
+	"California"	"06"	"2012"	"2012"	Suppressed	38041430	Suppressed
+	"California"	"06"	"2013"	"2013"	Suppressed	38332521	Suppressed
+	"California"	"06"	"2014"	"2014"	Suppressed	38802500	Suppressed
+	"California"	"06"	"2015"	"2015"	Suppressed	39144818	Suppressed
+	"California"	"06"	"2016"	"2016"	Suppressed	39250017	Suppressed
+	"California"	"06"	"2017"	"2017"	Suppressed	39536653	Suppressed
+	"California"	"06"	"2018"	"2018"	Suppressed	39557045	Suppressed
+	"California"	"06"	"2019"	"2019"	Suppressed	39512223	Suppressed
+"Total"	"California"	"06"			Suppressed	776337985	Suppressed
+	"Colorado"	"08"	"1999"	"1999"	Suppressed	4226018	Suppressed
+	"Colorado"	"08"	"2000"	"2000"	Suppressed	4301261	Suppressed
+	"Colorado"	"08"	"2001"	"2001"	Suppressed	4425687	Suppressed
+	"Colorado"	"08"	"2002"	"2002"	Suppressed	4490406	Suppressed
+	"Colorado"	"08"	"2003"	"2003"	Suppressed	4528732	Suppressed
+	"Colorado"	"08"	"2004"	"2004"	Suppressed	4575013	Suppressed
+	"Colorado"	"08"	"2005"	"2005"	Suppressed	4631888	Suppressed
+	"Colorado"	"08"	"2006"	"2006"	Suppressed	4720423	Suppressed
+	"Colorado"	"08"	"2007"	"2007"	Suppressed	4803868	Suppressed
+	"Colorado"	"08"	"2008"	"2008"	Suppressed	4889730	Suppressed
+	"Colorado"	"08"	"2009"	"2009"	Suppressed	4972195	Suppressed
+	"Colorado"	"08"	"2010"	"2010"	Suppressed	5029196	Suppressed
+	"Colorado"	"08"	"2011"	"2011"	Suppressed	5116796	Suppressed
+	"Colorado"	"08"	"2012"	"2012"	Suppressed	5187582	Suppressed
+	"Colorado"	"08"	"2013"	"2013"	Suppressed	5268367	Suppressed
+	"Colorado"	"08"	"2014"	"2014"	Suppressed	5355866	Suppressed
+	"Colorado"	"08"	"2015"	"2015"	Suppressed	5456574	Suppressed
+	"Colorado"	"08"	"2016"	"2016"	Suppressed	5540545	Suppressed
+	"Colorado"	"08"	"2017"	"2017"	Suppressed	5607154	Suppressed
+	"Colorado"	"08"	"2018"	"2018"	Suppressed	5695564	Suppressed
+	"Colorado"	"08"	"2019"	"2019"	Suppressed	5758736	Suppressed
+"Total"	"Colorado"	"08"			Suppressed	104581601	Suppressed
+	"Connecticut"	"09"	"1999"	"1999"	Suppressed	3386401	Suppressed
+	"Connecticut"	"09"	"2000"	"2000"	Suppressed	3405565	Suppressed
+	"Connecticut"	"09"	"2001"	"2001"	Suppressed	3432835	Suppressed
+	"Connecticut"	"09"	"2002"	"2002"	Suppressed	3458749	Suppressed
+	"Connecticut"	"09"	"2003"	"2003"	Suppressed	3484336	Suppressed
+	"Connecticut"	"09"	"2004"	"2004"	Suppressed	3496094	Suppressed
+	"Connecticut"	"09"	"2005"	"2005"	Suppressed	3506956	Suppressed
+	"Connecticut"	"09"	"2006"	"2006"	Suppressed	3517460	Suppressed
+	"Connecticut"	"09"	"2007"	"2007"	Suppressed	3527270	Suppressed
+	"Connecticut"	"09"	"2008"	"2008"	Suppressed	3545579	Suppressed
+	"Connecticut"	"09"	"2009"	"2009"	Suppressed	3561807	Suppressed
+	"Connecticut"	"09"	"2010"	"2010"	Suppressed	3574097	Suppressed
+	"Connecticut"	"09"	"2011"	"2011"	Suppressed	3580709	Suppressed
+	"Connecticut"	"09"	"2012"	"2012"	Suppressed	3590347	Suppressed
+	"Connecticut"	"09"	"2013"	"2013"	Suppressed	3596080	Suppressed
+	"Connecticut"	"09"	"2014"	"2014"	Suppressed	3596677	Suppressed
+	"Connecticut"	"09"	"2015"	"2015"	Suppressed	3590886	Suppressed
+	"Connecticut"	"09"	"2016"	"2016"	Suppressed	3576452	Suppressed
+	"Connecticut"	"09"	"2017"	"2017"	Suppressed	3588184	Suppressed
+	"Connecticut"	"09"	"2018"	"2018"	Suppressed	3572665	Suppressed
+	"Connecticut"	"09"	"2019"	"2019"	Suppressed	3565287	Suppressed
+"Total"	"Connecticut"	"09"			Suppressed	74154436	Suppressed
+	"Delaware"	"10"	"1999"	"1999"	Suppressed	774990	Suppressed
+	"Delaware"	"10"	"2000"	"2000"	Suppressed	783600	Suppressed
+	"Delaware"	"10"	"2001"	"2001"	Suppressed	795699	Suppressed
+	"Delaware"	"10"	"2002"	"2002"	Suppressed	806169	Suppressed
+	"Delaware"	"10"	"2003"	"2003"	Suppressed	818003	Suppressed
+	"Delaware"	"10"	"2004"	"2004"	Suppressed	830803	Suppressed
+	"Delaware"	"10"	"2005"	"2005"	Suppressed	845150	Suppressed
+	"Delaware"	"10"	"2006"	"2006"	Suppressed	859268	Suppressed
+	"Delaware"	"10"	"2007"	"2007"	Suppressed	871749	Suppressed
+	"Delaware"	"10"	"2008"	"2008"	Suppressed	883874	Suppressed
+	"Delaware"	"10"	"2009"	"2009"	Suppressed	891730	Suppressed
+	"Delaware"	"10"	"2010"	"2010"	Suppressed	897934	Suppressed
+	"Delaware"	"10"	"2011"	"2011"	Suppressed	907135	Suppressed
+	"Delaware"	"10"	"2012"	"2012"	Suppressed	917092	Suppressed
+	"Delaware"	"10"	"2013"	"2013"	Suppressed	925749	Suppressed
+	"Delaware"	"10"	"2014"	"2014"	Suppressed	935614	Suppressed
+	"Delaware"	"10"	"2015"	"2015"	Suppressed	945934	Suppressed
+	"Delaware"	"10"	"2016"	"2016"	Suppressed	952065	Suppressed
+	"Delaware"	"10"	"2017"	"2017"	Suppressed	961939	Suppressed
+	"Delaware"	"10"	"2018"	"2018"	Suppressed	967171	Suppressed
+	"Delaware"	"10"	"2019"	"2019"	Suppressed	973764	Suppressed
+"Total"	"Delaware"	"10"			Suppressed	18545432	Suppressed
+	"District of Columbia"	"11"	"1999"	"1999"	Suppressed	570213	Suppressed
+	"District of Columbia"	"11"	"2000"	"2000"	Suppressed	572059	Suppressed
+	"District of Columbia"	"11"	"2001"	"2001"	Suppressed	574504	Suppressed
+	"District of Columbia"	"11"	"2002"	"2002"	Suppressed	573158	Suppressed
+	"District of Columbia"	"11"	"2003"	"2003"	Suppressed	568502	Suppressed
+	"District of Columbia"	"11"	"2004"	"2004"	Suppressed	567754	Suppressed
+	"District of Columbia"	"11"	"2005"	"2005"	Suppressed	567136	Suppressed
+	"District of Columbia"	"11"	"2006"	"2006"	Suppressed	570681	Suppressed
+	"District of Columbia"	"11"	"2007"	"2007"	Suppressed	574404	Suppressed
+	"District of Columbia"	"11"	"2008"	"2008"	Suppressed	580236	Suppressed
+	"District of Columbia"	"11"	"2009"	"2009"	Suppressed	592228	Suppressed
+	"District of Columbia"	"11"	"2010"	"2010"	Suppressed	601723	Suppressed
+	"District of Columbia"	"11"	"2011"	"2011"	Suppressed	617996	Suppressed
+	"District of Columbia"	"11"	"2012"	"2012"	Suppressed	632323	Suppressed
+	"District of Columbia"	"11"	"2013"	"2013"	Suppressed	646449	Suppressed
+	"District of Columbia"	"11"	"2014"	"2014"	Suppressed	658893	Suppressed
+	"District of Columbia"	"11"	"2015"	"2015"	Suppressed	672228	Suppressed
+	"District of Columbia"	"11"	"2016"	"2016"	Suppressed	681170	Suppressed
+	"District of Columbia"	"11"	"2017"	"2017"	Suppressed	693972	Suppressed
+	"District of Columbia"	"11"	"2018"	"2018"	Suppressed	702455	Suppressed
+	"District of Columbia"	"11"	"2019"	"2019"	Suppressed	705749	Suppressed
+"Total"	"District of Columbia"	"11"			Suppressed	12923833	Suppressed
+	"Florida"	"12"	"1999"	"1999"	Suppressed	15759421	Suppressed
+	"Florida"	"12"	"2000"	"2000"	Suppressed	15982378	Suppressed
+	"Florida"	"12"	"2001"	"2001"	Suppressed	16356966	Suppressed
+	"Florida"	"12"	"2002"	"2002"	Suppressed	16689370	Suppressed
+	"Florida"	"12"	"2003"	"2003"	Suppressed	17004085	Suppressed
+	"Florida"	"12"	"2004"	"2004"	Suppressed	17415318	Suppressed
+	"Florida"	"12"	"2005"	"2005"	Suppressed	17842038	Suppressed
+	"Florida"	"12"	"2006"	"2006"	Suppressed	18166990	Suppressed
+	"Florida"	"12"	"2007"	"2007"	Suppressed	18367842	Suppressed
+	"Florida"	"12"	"2008"	"2008"	Suppressed	18527305	Suppressed
+	"Florida"	"12"	"2009"	"2009"	Suppressed	18652644	Suppressed
+	"Florida"	"12"	"2010"	"2010"	Suppressed	18801310	Suppressed
+	"Florida"	"12"	"2011"	"2011"	Suppressed	19057542	Suppressed
+	"Florida"	"12"	"2012"	"2012"	Suppressed	19317568	Suppressed
+	"Florida"	"12"	"2013"	"2013"	Suppressed	19552860	Suppressed
+	"Florida"	"12"	"2014"	"2014"	Suppressed	19893297	Suppressed
+	"Florida"	"12"	"2015"	"2015"	Suppressed	20271272	Suppressed
+	"Florida"	"12"	"2016"	"2016"	Suppressed	20612439	Suppressed
+	"Florida"	"12"	"2017"	"2017"	Suppressed	20984400	Suppressed
+	"Florida"	"12"	"2018"	"2018"	Suppressed	21299325	Suppressed
+	"Florida"	"12"	"2019"	"2019"	Suppressed	21477737	Suppressed
+"Total"	"Florida"	"12"			Suppressed	392032107	Suppressed
+	"Georgia"	"13"	"1999"	"1999"	Suppressed	8045965	Suppressed
+	"Georgia"	"13"	"2000"	"2000"	Suppressed	8186453	Suppressed
+	"Georgia"	"13"	"2001"	"2001"	Suppressed	8377038	Suppressed
+	"Georgia"	"13"	"2002"	"2002"	Suppressed	8508256	Suppressed
+	"Georgia"	"13"	"2003"	"2003"	Suppressed	8622793	Suppressed
+	"Georgia"	"13"	"2004"	"2004"	Suppressed	8769252	Suppressed
+	"Georgia"	"13"	"2005"	"2005"	Suppressed	8925922	Suppressed
+	"Georgia"	"13"	"2006"	"2006"	Suppressed	9155813	Suppressed
+	"Georgia"	"13"	"2007"	"2007"	Suppressed	9349988	Suppressed
+	"Georgia"	"13"	"2008"	"2008"	Suppressed	9504843	Suppressed
+	"Georgia"	"13"	"2009"	"2009"	Suppressed	9620846	Suppressed
+	"Georgia"	"13"	"2010"	"2010"	Suppressed	9687653	Suppressed
+	"Georgia"	"13"	"2011"	"2011"	Suppressed	9815210	Suppressed
+	"Georgia"	"13"	"2012"	"2012"	Suppressed	9919945	Suppressed
+	"Georgia"	"13"	"2013"	"2013"	Suppressed	9992167	Suppressed
+	"Georgia"	"13"	"2014"	"2014"	Suppressed	10097343	Suppressed
+	"Georgia"	"13"	"2015"	"2015"	Suppressed	10214860	Suppressed
+	"Georgia"	"13"	"2016"	"2016"	Suppressed	10310371	Suppressed
+	"Georgia"	"13"	"2017"	"2017"	Suppressed	10429379	Suppressed
+	"Georgia"	"13"	"2018"	"2018"	Suppressed	10519475	Suppressed
+	"Georgia"	"13"	"2019"	"2019"	Suppressed	10617423	Suppressed
+"Total"	"Georgia"	"13"			Suppressed	198670995	Suppressed
+	"Hawaii"	"15"	"1999"	"1999"	Suppressed	1210300	Suppressed
+	"Hawaii"	"15"	"2000"	"2000"	Suppressed	1211537	Suppressed
+	"Hawaii"	"15"	"2001"	"2001"	Suppressed	1225948	Suppressed
+	"Hawaii"	"15"	"2002"	"2002"	Suppressed	1239613	Suppressed
+	"Hawaii"	"15"	"2003"	"2003"	Suppressed	1251154	Suppressed
+	"Hawaii"	"15"	"2004"	"2004"	Suppressed	1273569	Suppressed
+	"Hawaii"	"15"	"2005"	"2005"	Suppressed	1292729	Suppressed
+	"Hawaii"	"15"	"2006"	"2006"	Suppressed	1309731	Suppressed
+	"Hawaii"	"15"	"2007"	"2007"	Suppressed	1315675	Suppressed
+	"Hawaii"	"15"	"2008"	"2008"	Suppressed	1332213	Suppressed
+	"Hawaii"	"15"	"2009"	"2009"	Suppressed	1346717	Suppressed
+	"Hawaii"	"15"	"2010"	"2010"	Suppressed	1360301	Suppressed
+	"Hawaii"	"15"	"2011"	"2011"	Suppressed	1374810	Suppressed
+	"Hawaii"	"15"	"2012"	"2012"	Suppressed	1392313	Suppressed
+	"Hawaii"	"15"	"2013"	"2013"	Suppressed	1404054	Suppressed
+	"Hawaii"	"15"	"2014"	"2014"	Suppressed	1419561	Suppressed
+	"Hawaii"	"15"	"2015"	"2015"	Suppressed	1431603	Suppressed
+	"Hawaii"	"15"	"2016"	"2016"	Suppressed	1428557	Suppressed
+	"Hawaii"	"15"	"2017"	"2017"	Suppressed	1427538	Suppressed
+	"Hawaii"	"15"	"2018"	"2018"	Suppressed	1420491	Suppressed
+	"Hawaii"	"15"	"2019"	"2019"	Suppressed	1415872	Suppressed
+"Total"	"Hawaii"	"15"			Suppressed	28084286	Suppressed
+	"Idaho"	"16"	"1999"	"1999"	Suppressed	1275674	Suppressed
+	"Idaho"	"16"	"2000"	"2000"	Suppressed	1293953	Suppressed
+	"Idaho"	"16"	"2001"	"2001"	Suppressed	1319962	Suppressed
+	"Idaho"	"16"	"2002"	"2002"	Suppressed	1340372	Suppressed
+	"Idaho"	"16"	"2003"	"2003"	Suppressed	1363380	Suppressed
+	"Idaho"	"16"	"2004"	"2004"	Suppressed	1391802	Suppressed
+	"Idaho"	"16"	"2005"	"2005"	Suppressed	1428241	Suppressed
+	"Idaho"	"16"	"2006"	"2006"	Suppressed	1468669	Suppressed
+	"Idaho"	"16"	"2007"	"2007"	Suppressed	1505105	Suppressed
+	"Idaho"	"16"	"2008"	"2008"	Suppressed	1534320	Suppressed
+	"Idaho"	"16"	"2009"	"2009"	Suppressed	1554439	Suppressed
+	"Idaho"	"16"	"2010"	"2010"	Suppressed	1567582	Suppressed
+	"Idaho"	"16"	"2011"	"2011"	Suppressed	1584985	Suppressed
+	"Idaho"	"16"	"2012"	"2012"	Suppressed	1595728	Suppressed
+	"Idaho"	"16"	"2013"	"2013"	Suppressed	1612136	Suppressed
+	"Idaho"	"16"	"2014"	"2014"	Suppressed	1634464	Suppressed
+	"Idaho"	"16"	"2015"	"2015"	Suppressed	1654930	Suppressed
+	"Idaho"	"16"	"2016"	"2016"	Suppressed	1683140	Suppressed
+	"Idaho"	"16"	"2017"	"2017"	Suppressed	1716943	Suppressed
+	"Idaho"	"16"	"2018"	"2018"	Suppressed	1754208	Suppressed
+	"Idaho"	"16"	"2019"	"2019"	Suppressed	1787065	Suppressed
+"Total"	"Idaho"	"16"			Suppressed	32067098	Suppressed
+	"Illinois"	"17"	"1999"	"1999"	Suppressed	12359020	Suppressed
+	"Illinois"	"17"	"2000"	"2000"	Suppressed	12419293	Suppressed
+	"Illinois"	"17"	"2001"	"2001"	Suppressed	12488445	Suppressed
+	"Illinois"	"17"	"2002"	"2002"	Suppressed	12525556	Suppressed
+	"Illinois"	"17"	"2003"	"2003"	Suppressed	12556006	Suppressed
+	"Illinois"	"17"	"2004"	"2004"	Suppressed	12589773	Suppressed
+	"Illinois"	"17"	"2005"	"2005"	Suppressed	12609903	Suppressed
+	"Illinois"	"17"	"2006"	"2006"	Suppressed	12643955	Suppressed
+	"Illinois"	"17"	"2007"	"2007"	Suppressed	12695866	Suppressed
+	"Illinois"	"17"	"2008"	"2008"	Suppressed	12747038	Suppressed
+	"Illinois"	"17"	"2009"	"2009"	Suppressed	12796778	Suppressed
+	"Illinois"	"17"	"2010"	"2010"	Suppressed	12830632	Suppressed
+	"Illinois"	"17"	"2011"	"2011"	Suppressed	12869257	Suppressed
+	"Illinois"	"17"	"2012"	"2012"	Suppressed	12875255	Suppressed
+	"Illinois"	"17"	"2013"	"2013"	Suppressed	12882135	Suppressed
+	"Illinois"	"17"	"2014"	"2014"	Suppressed	12880580	Suppressed
+	"Illinois"	"17"	"2015"	"2015"	Suppressed	12859995	Suppressed
+	"Illinois"	"17"	"2016"	"2016"	Suppressed	12801539	Suppressed
+	"Illinois"	"17"	"2017"	"2017"	Suppressed	12802023	Suppressed
+	"Illinois"	"17"	"2018"	"2018"	Suppressed	12741080	Suppressed
+	"Illinois"	"17"	"2019"	"2019"	Suppressed	12671821	Suppressed
+"Total"	"Illinois"	"17"			Suppressed	266645950	Suppressed
+	"Indiana"	"18"	"1999"	"1999"	Suppressed	6044969	Suppressed
+	"Indiana"	"18"	"2000"	"2000"	Suppressed	6080485	Suppressed
+	"Indiana"	"18"	"2001"	"2001"	Suppressed	6127760	Suppressed
+	"Indiana"	"18"	"2002"	"2002"	Suppressed	6155967	Suppressed
+	"Indiana"	"18"	"2003"	"2003"	Suppressed	6196638	Suppressed
+	"Indiana"	"18"	"2004"	"2004"	Suppressed	6233007	Suppressed
+	"Indiana"	"18"	"2005"	"2005"	Suppressed	6278616	Suppressed
+	"Indiana"	"18"	"2006"	"2006"	Suppressed	6332669	Suppressed
+	"Indiana"	"18"	"2007"	"2007"	Suppressed	6379599	Suppressed
+	"Indiana"	"18"	"2008"	"2008"	Suppressed	6424806	Suppressed
+	"Indiana"	"18"	"2009"	"2009"	Suppressed	6459325	Suppressed
+	"Indiana"	"18"	"2010"	"2010"	Suppressed	6483802	Suppressed
+	"Indiana"	"18"	"2011"	"2011"	Suppressed	6516922	Suppressed
+	"Indiana"	"18"	"2012"	"2012"	Suppressed	6537334	Suppressed
+	"Indiana"	"18"	"2013"	"2013"	Suppressed	6570902	Suppressed
+	"Indiana"	"18"	"2014"	"2014"	Suppressed	6596855	Suppressed
+	"Indiana"	"18"	"2015"	"2015"	Suppressed	6619680	Suppressed
+	"Indiana"	"18"	"2016"	"2016"	Suppressed	6633053	Suppressed
+	"Indiana"	"18"	"2017"	"2017"	Suppressed	6666818	Suppressed
+	"Indiana"	"18"	"2018"	"2018"	Suppressed	6691878	Suppressed
+	"Indiana"	"18"	"2019"	"2019"	Suppressed	6732219	Suppressed
+"Total"	"Indiana"	"18"			Suppressed	134763304	Suppressed
+	"Iowa"	"19"	"1999"	"1999"	Suppressed	2917634	Suppressed
+	"Iowa"	"19"	"2000"	"2000"	Suppressed	2926324	Suppressed
+	"Iowa"	"19"	"2001"	"2001"	Suppressed	2931997	Suppressed
+	"Iowa"	"19"	"2002"	"2002"	Suppressed	2934234	Suppressed
+	"Iowa"	"19"	"2003"	"2003"	Suppressed	2941999	Suppressed
+	"Iowa"	"19"	"2004"	"2004"	Suppressed	2953635	Suppressed
+	"Iowa"	"19"	"2005"	"2005"	Suppressed	2964454	Suppressed
+	"Iowa"	"19"	"2006"	"2006"	Suppressed	2982644	Suppressed
+	"Iowa"	"19"	"2007"	"2007"	Suppressed	2999212	Suppressed
+	"Iowa"	"19"	"2008"	"2008"	Suppressed	3016734	Suppressed
+	"Iowa"	"19"	"2009"	"2009"	Suppressed	3032870	Suppressed
+	"Iowa"	"19"	"2010"	"2010"	Suppressed	3046355	Suppressed
+	"Iowa"	"19"	"2011"	"2011"	Suppressed	3062309	Suppressed
+	"Iowa"	"19"	"2012"	"2012"	Suppressed	3074186	Suppressed
+	"Iowa"	"19"	"2013"	"2013"	Suppressed	3090416	Suppressed
+	"Iowa"	"19"	"2014"	"2014"	Suppressed	3107126	Suppressed
+	"Iowa"	"19"	"2015"	"2015"	Suppressed	3123899	Suppressed
+	"Iowa"	"19"	"2016"	"2016"	Suppressed	3134693	Suppressed
+	"Iowa"	"19"	"2017"	"2017"	Suppressed	3145711	Suppressed
+	"Iowa"	"19"	"2018"	"2018"	Suppressed	3156145	Suppressed
+	"Iowa"	"19"	"2019"	"2019"	Suppressed	3155070	Suppressed
+"Total"	"Iowa"	"19"			Suppressed	63697647	Suppressed
+	"Kansas"	"20"	"1999"	"1999"	Suppressed	2678338	Suppressed
+	"Kansas"	"20"	"2000"	"2000"	Suppressed	2688418	Suppressed
+	"Kansas"	"20"	"2001"	"2001"	Suppressed	2702162	Suppressed
+	"Kansas"	"20"	"2002"	"2002"	Suppressed	2713535	Suppressed
+	"Kansas"	"20"	"2003"	"2003"	Suppressed	2723004	Suppressed
+	"Kansas"	"20"	"2004"	"2004"	Suppressed	2734373	Suppressed
+	"Kansas"	"20"	"2005"	"2005"	Suppressed	2745299	Suppressed
+	"Kansas"	"20"	"2006"	"2006"	Suppressed	2762931	Suppressed
+	"Kansas"	"20"	"2007"	"2007"	Suppressed	2783785	Suppressed
+	"Kansas"	"20"	"2008"	"2008"	Suppressed	2808076	Suppressed
+	"Kansas"	"20"	"2009"	"2009"	Suppressed	2832704	Suppressed
+	"Kansas"	"20"	"2010"	"2010"	Suppressed	2853118	Suppressed
+	"Kansas"	"20"	"2011"	"2011"	Suppressed	2871238	Suppressed
+	"Kansas"	"20"	"2012"	"2012"	Suppressed	2885905	Suppressed
+	"Kansas"	"20"	"2013"	"2013"	Suppressed	2893957	Suppressed
+	"Kansas"	"20"	"2014"	"2014"	Suppressed	2904021	Suppressed
+	"Kansas"	"20"	"2015"	"2015"	Suppressed	2911641	Suppressed
+	"Kansas"	"20"	"2016"	"2016"	Suppressed	2907289	Suppressed
+	"Kansas"	"20"	"2017"	"2017"	Suppressed	2913123	Suppressed
+	"Kansas"	"20"	"2018"	"2018"	Suppressed	2911505	Suppressed
+	"Kansas"	"20"	"2019"	"2019"	Suppressed	2913314	Suppressed
+"Total"	"Kansas"	"20"			Suppressed	59137736	Suppressed
+	"Kentucky"	"21"	"1999"	"1999"	Suppressed	4018053	Suppressed
+	"Kentucky"	"21"	"2000"	"2000"	Suppressed	4041769	Suppressed
+	"Kentucky"	"21"	"2001"	"2001"	Suppressed	4068132	Suppressed
+	"Kentucky"	"21"	"2002"	"2002"	Suppressed	4089875	Suppressed
+	"Kentucky"	"21"	"2003"	"2003"	Suppressed	4117170	Suppressed
+	"Kentucky"	"21"	"2004"	"2004"	Suppressed	4146101	Suppressed
+	"Kentucky"	"21"	"2005"	"2005"	Suppressed	4182742	Suppressed
+	"Kentucky"	"21"	"2006"	"2006"	Suppressed	4219239	Suppressed
+	"Kentucky"	"21"	"2007"	"2007"	Suppressed	4256672	Suppressed
+	"Kentucky"	"21"	"2008"	"2008"	Suppressed	4289878	Suppressed
+	"Kentucky"	"21"	"2009"	"2009"	Suppressed	4317074	Suppressed
+	"Kentucky"	"21"	"2010"	"2010"	Suppressed	4339367	Suppressed
+	"Kentucky"	"21"	"2011"	"2011"	Suppressed	4369356	Suppressed
+	"Kentucky"	"21"	"2012"	"2012"	Suppressed	4380415	Suppressed
+	"Kentucky"	"21"	"2013"	"2013"	Suppressed	4395295	Suppressed
+	"Kentucky"	"21"	"2014"	"2014"	Suppressed	4413457	Suppressed
+	"Kentucky"	"21"	"2015"	"2015"	Suppressed	4425092	Suppressed
+	"Kentucky"	"21"	"2016"	"2016"	Suppressed	4436974	Suppressed
+	"Kentucky"	"21"	"2017"	"2017"	Suppressed	4454189	Suppressed
+	"Kentucky"	"21"	"2018"	"2018"	Suppressed	4468402	Suppressed
+	"Kentucky"	"21"	"2019"	"2019"	Suppressed	4467673	Suppressed
+"Total"	"Kentucky"	"21"			Suppressed	89896925	Suppressed
+	"Louisiana"	"22"	"1999"	"1999"	Suppressed	4460811	Suppressed
+	"Louisiana"	"22"	"2000"	"2000"	Suppressed	4468976	Suppressed
+	"Louisiana"	"22"	"2001"	"2001"	Suppressed	4477875	Suppressed
+	"Louisiana"	"22"	"2002"	"2002"	Suppressed	4497267	Suppressed
+	"Louisiana"	"22"	"2003"	"2003"	Suppressed	4521042	Suppressed
+	"Louisiana"	"22"	"2004"	"2004"	Suppressed	4552238	Suppressed
+	"Louisiana"	"22"	"2005"	"2005"	Suppressed	4576628	Suppressed
+	"Louisiana"	"22"	"2006"	"2006"	Suppressed	4302665	Suppressed
+	"Louisiana"	"22"	"2007"	"2007"	Suppressed	4375581	Suppressed
+	"Louisiana"	"22"	"2008"	"2008"	Suppressed	4435586	Suppressed
+	"Louisiana"	"22"	"2009"	"2009"	Suppressed	4491648	Suppressed
+	"Louisiana"	"22"	"2010"	"2010"	Suppressed	4533372	Suppressed
+	"Louisiana"	"22"	"2011"	"2011"	Suppressed	4574836	Suppressed
+	"Louisiana"	"22"	"2012"	"2012"	Suppressed	4601893	Suppressed
+	"Louisiana"	"22"	"2013"	"2013"	Suppressed	4625470	Suppressed
+	"Louisiana"	"22"	"2014"	"2014"	Suppressed	4649676	Suppressed
+	"Louisiana"	"22"	"2015"	"2015"	Suppressed	4670724	Suppressed
+	"Louisiana"	"22"	"2016"	"2016"	Suppressed	4681666	Suppressed
+	"Louisiana"	"22"	"2017"	"2017"	Suppressed	4684333	Suppressed
+	"Louisiana"	"22"	"2018"	"2018"	Suppressed	4659978	Suppressed
+	"Louisiana"	"22"	"2019"	"2019"	Suppressed	4648794	Suppressed
+"Total"	"Louisiana"	"22"			Suppressed	95491059	Suppressed
+	"Maine"	"23"	"1999"	"1999"	Suppressed	1266808	Suppressed
+	"Maine"	"23"	"2000"	"2000"	Suppressed	1274923	Suppressed
+	"Maine"	"23"	"2001"	"2001"	Suppressed	1285692	Suppressed
+	"Maine"	"23"	"2002"	"2002"	Suppressed	1295960	Suppressed
+	"Maine"	"23"	"2003"	"2003"	Suppressed	1306513	Suppressed
+	"Maine"	"23"	"2004"	"2004"	Suppressed	1313688	Suppressed
+	"Maine"	"23"	"2005"	"2005"	Suppressed	1318787	Suppressed
+	"Maine"	"23"	"2006"	"2006"	Suppressed	1323619	Suppressed
+	"Maine"	"23"	"2007"	"2007"	Suppressed	1327040	Suppressed
+	"Maine"	"23"	"2008"	"2008"	Suppressed	1330509	Suppressed
+	"Maine"	"23"	"2009"	"2009"	Suppressed	1329590	Suppressed
+	"Maine"	"23"	"2010"	"2010"	Suppressed	1328361	Suppressed
+	"Maine"	"23"	"2011"	"2011"	Suppressed	1328188	Suppressed
+	"Maine"	"23"	"2012"	"2012"	Suppressed	1329192	Suppressed
+	"Maine"	"23"	"2013"	"2013"	Suppressed	1328302	Suppressed
+	"Maine"	"23"	"2014"	"2014"	Suppressed	1330089	Suppressed
+	"Maine"	"23"	"2015"	"2015"	Suppressed	1329328	Suppressed
+	"Maine"	"23"	"2016"	"2016"	Suppressed	1331479	Suppressed
+	"Maine"	"23"	"2017"	"2017"	Suppressed	1335907	Suppressed
+	"Maine"	"23"	"2018"	"2018"	Suppressed	1338404	Suppressed
+	"Maine"	"23"	"2019"	"2019"	Suppressed	1344212	Suppressed
+"Total"	"Maine"	"23"			Suppressed	27696591	Suppressed
+	"Maryland"	"24"	"1999"	"1999"	Suppressed	5254509	Suppressed
+	"Maryland"	"24"	"2000"	"2000"	Suppressed	5296486	Suppressed
+	"Maryland"	"24"	"2001"	"2001"	Suppressed	5374691	Suppressed
+	"Maryland"	"24"	"2002"	"2002"	Suppressed	5440389	Suppressed
+	"Maryland"	"24"	"2003"	"2003"	Suppressed	5496269	Suppressed
+	"Maryland"	"24"	"2004"	"2004"	Suppressed	5546935	Suppressed
+	"Maryland"	"24"	"2005"	"2005"	Suppressed	5592379	Suppressed
+	"Maryland"	"24"	"2006"	"2006"	Suppressed	5627367	Suppressed
+	"Maryland"	"24"	"2007"	"2007"	Suppressed	5653408	Suppressed
+	"Maryland"	"24"	"2008"	"2008"	Suppressed	5684965	Suppressed
+	"Maryland"	"24"	"2009"	"2009"	Suppressed	5730388	Suppressed
+	"Maryland"	"24"	"2010"	"2010"	Suppressed	5773552	Suppressed
+	"Maryland"	"24"	"2011"	"2011"	Suppressed	5828289	Suppressed
+	"Maryland"	"24"	"2012"	"2012"	Suppressed	5884563	Suppressed
+	"Maryland"	"24"	"2013"	"2013"	Suppressed	5928814	Suppressed
+	"Maryland"	"24"	"2014"	"2014"	Suppressed	5976407	Suppressed
+	"Maryland"	"24"	"2015"	"2015"	Suppressed	6006401	Suppressed
+	"Maryland"	"24"	"2016"	"2016"	Suppressed	6016447	Suppressed
+	"Maryland"	"24"	"2017"	"2017"	Suppressed	6052177	Suppressed
+	"Maryland"	"24"	"2018"	"2018"	Suppressed	6042718	Suppressed
+	"Maryland"	"24"	"2019"	"2019"	Suppressed	6045680	Suppressed
+"Total"	"Maryland"	"24"			Suppressed	120252834	Suppressed
+	"Massachusetts"	"25"	"1999"	"1999"	Suppressed	6317345	Suppressed
+	"Massachusetts"	"25"	"2000"	"2000"	Suppressed	6349097	Suppressed
+	"Massachusetts"	"25"	"2001"	"2001"	Suppressed	6397634	Suppressed
+	"Massachusetts"	"25"	"2002"	"2002"	Suppressed	6417206	Suppressed
+	"Massachusetts"	"25"	"2003"	"2003"	Suppressed	6422565	Suppressed
+	"Massachusetts"	"25"	"2004"	"2004"	Suppressed	6412281	Suppressed
+	"Massachusetts"	"25"	"2005"	"2005"	Suppressed	6403290	Suppressed
+	"Massachusetts"	"25"	"2006"	"2006"	Suppressed	6410084	Suppressed
+	"Massachusetts"	"25"	"2007"	"2007"	Suppressed	6431559	Suppressed
+	"Massachusetts"	"25"	"2008"	"2008"	Suppressed	6468967	Suppressed
+	"Massachusetts"	"25"	"2009"	"2009"	Suppressed	6517613	Suppressed
+	"Massachusetts"	"25"	"2010"	"2010"	Suppressed	6547629	Suppressed
+	"Massachusetts"	"25"	"2011"	"2011"	Suppressed	6587536	Suppressed
+	"Massachusetts"	"25"	"2012"	"2012"	Suppressed	6646144	Suppressed
+	"Massachusetts"	"25"	"2013"	"2013"	Suppressed	6692824	Suppressed
+	"Massachusetts"	"25"	"2014"	"2014"	Suppressed	6745408	Suppressed
+	"Massachusetts"	"25"	"2015"	"2015"	Suppressed	6794422	Suppressed
+	"Massachusetts"	"25"	"2016"	"2016"	Suppressed	6811779	Suppressed
+	"Massachusetts"	"25"	"2017"	"2017"	Suppressed	6859819	Suppressed
+	"Massachusetts"	"25"	"2018"	"2018"	Suppressed	6902149	Suppressed
+	"Massachusetts"	"25"	"2019"	"2019"	Suppressed	6892503	Suppressed
+"Total"	"Massachusetts"	"25"			Suppressed	138027854	Suppressed
+	"Michigan"	"26"	"1999"	"1999"	Suppressed	9897116	Suppressed
+	"Michigan"	"26"	"2000"	"2000"	Suppressed	9938444	Suppressed
+	"Michigan"	"26"	"2001"	"2001"	Suppressed	9991120	Suppressed
+	"Michigan"	"26"	"2002"	"2002"	Suppressed	10015710	Suppressed
+	"Michigan"	"26"	"2003"	"2003"	Suppressed	10041152	Suppressed
+	"Michigan"	"26"	"2004"	"2004"	Suppressed	10055315	Suppressed
+	"Michigan"	"26"	"2005"	"2005"	Suppressed	10051137	Suppressed
+	"Michigan"	"26"	"2006"	"2006"	Suppressed	10036081	Suppressed
+	"Michigan"	"26"	"2007"	"2007"	Suppressed	10001284	Suppressed
+	"Michigan"	"26"	"2008"	"2008"	Suppressed	9946889	Suppressed
+	"Michigan"	"26"	"2009"	"2009"	Suppressed	9901591	Suppressed
+	"Michigan"	"26"	"2010"	"2010"	Suppressed	9883640	Suppressed
+	"Michigan"	"26"	"2011"	"2011"	Suppressed	9876187	Suppressed
+	"Michigan"	"26"	"2012"	"2012"	Suppressed	9883360	Suppressed
+	"Michigan"	"26"	"2013"	"2013"	Suppressed	9895622	Suppressed
+	"Michigan"	"26"	"2014"	"2014"	Suppressed	9909877	Suppressed
+	"Michigan"	"26"	"2015"	"2015"	Suppressed	9922576	Suppressed
+	"Michigan"	"26"	"2016"	"2016"	Suppressed	9928300	Suppressed
+	"Michigan"	"26"	"2017"	"2017"	Suppressed	9962311	Suppressed
+	"Michigan"	"26"	"2018"	"2018"	Suppressed	9995915	Suppressed
+	"Michigan"	"26"	"2019"	"2019"	Suppressed	9986857	Suppressed
+"Total"	"Michigan"	"26"			Suppressed	209120484	Suppressed
+	"Minnesota"	"27"	"1999"	"1999"	Suppressed	4873481	Suppressed
+	"Minnesota"	"27"	"2000"	"2000"	Suppressed	4919479	Suppressed
+	"Minnesota"	"27"	"2001"	"2001"	Suppressed	4982796	Suppressed
+	"Minnesota"	"27"	"2002"	"2002"	Suppressed	5018935	Suppressed
+	"Minnesota"	"27"	"2003"	"2003"	Suppressed	5053572	Suppressed
+	"Minnesota"	"27"	"2004"	"2004"	Suppressed	5087713	Suppressed
+	"Minnesota"	"27"	"2005"	"2005"	Suppressed	5119598	Suppressed
+	"Minnesota"	"27"	"2006"	"2006"	Suppressed	5163555	Suppressed
+	"Minnesota"	"27"	"2007"	"2007"	Suppressed	5207203	Suppressed
+	"Minnesota"	"27"	"2008"	"2008"	Suppressed	5247018	Suppressed
+	"Minnesota"	"27"	"2009"	"2009"	Suppressed	5281203	Suppressed
+	"Minnesota"	"27"	"2010"	"2010"	Suppressed	5303925	Suppressed
+	"Minnesota"	"27"	"2011"	"2011"	Suppressed	5344861	Suppressed
+	"Minnesota"	"27"	"2012"	"2012"	Suppressed	5379139	Suppressed
+	"Minnesota"	"27"	"2013"	"2013"	Suppressed	5420380	Suppressed
+	"Minnesota"	"27"	"2014"	"2014"	Suppressed	5457173	Suppressed
+	"Minnesota"	"27"	"2015"	"2015"	Suppressed	5489594	Suppressed
+	"Minnesota"	"27"	"2016"	"2016"	Suppressed	5519952	Suppressed
+	"Minnesota"	"27"	"2017"	"2017"	Suppressed	5576606	Suppressed
+	"Minnesota"	"27"	"2018"	"2018"	Suppressed	5611179	Suppressed
+	"Minnesota"	"27"	"2019"	"2019"	Suppressed	5639632	Suppressed
+"Total"	"Minnesota"	"27"			Suppressed	110696994	Suppressed
+	"Mississippi"	"28"	"1999"	"1999"	Suppressed	2828408	Suppressed
+	"Mississippi"	"28"	"2000"	"2000"	Suppressed	2844658	Suppressed
+	"Mississippi"	"28"	"2001"	"2001"	Suppressed	2852994	Suppressed
+	"Mississippi"	"28"	"2002"	"2002"	Suppressed	2858681	Suppressed
+	"Mississippi"	"28"	"2003"	"2003"	Suppressed	2868312	Suppressed
+	"Mississippi"	"28"	"2004"	"2004"	Suppressed	2889010	Suppressed
+	"Mississippi"	"28"	"2005"	"2005"	Suppressed	2905943	Suppressed
+	"Mississippi"	"28"	"2006"	"2006"	Suppressed	2904978	Suppressed
+	"Mississippi"	"28"	"2007"	"2007"	Suppressed	2928350	Suppressed
+	"Mississippi"	"28"	"2008"	"2008"	Suppressed	2947806	Suppressed
+	"Mississippi"	"28"	"2009"	"2009"	Suppressed	2958774	Suppressed
+	"Mississippi"	"28"	"2010"	"2010"	Suppressed	2967297	Suppressed
+	"Mississippi"	"28"	"2011"	"2011"	Suppressed	2978512	Suppressed
+	"Mississippi"	"28"	"2012"	"2012"	Suppressed	2984926	Suppressed
+	"Mississippi"	"28"	"2013"	"2013"	Suppressed	2991207	Suppressed
+	"Mississippi"	"28"	"2014"	"2014"	Suppressed	2994079	Suppressed
+	"Mississippi"	"28"	"2015"	"2015"	Suppressed	2992333	Suppressed
+	"Mississippi"	"28"	"2016"	"2016"	Suppressed	2988726	Suppressed
+	"Mississippi"	"28"	"2017"	"2017"	Suppressed	2984100	Suppressed
+	"Mississippi"	"28"	"2018"	"2018"	Suppressed	2986530	Suppressed
+	"Mississippi"	"28"	"2019"	"2019"	Suppressed	2976149	Suppressed
+"Total"	"Mississippi"	"28"			Suppressed	61631773	Suppressed
+	"Missouri"	"29"	"1999"	"1999"	Suppressed	5561948	Suppressed
+	"Missouri"	"29"	"2000"	"2000"	Suppressed	5595211	Suppressed
+	"Missouri"	"29"	"2001"	"2001"	Suppressed	5641142	Suppressed
+	"Missouri"	"29"	"2002"	"2002"	Suppressed	5674825	Suppressed
+	"Missouri"	"29"	"2003"	"2003"	Suppressed	5709403	Suppressed
+	"Missouri"	"29"	"2004"	"2004"	Suppressed	5747741	Suppressed
+	"Missouri"	"29"	"2005"	"2005"	Suppressed	5790300	Suppressed
+	"Missouri"	"29"	"2006"	"2006"	Suppressed	5842704	Suppressed
+	"Missouri"	"29"	"2007"	"2007"	Suppressed	5887612	Suppressed
+	"Missouri"	"29"	"2008"	"2008"	Suppressed	5923916	Suppressed
+	"Missouri"	"29"	"2009"	"2009"	Suppressed	5961088	Suppressed
+	"Missouri"	"29"	"2010"	"2010"	Suppressed	5988927	Suppressed
+	"Missouri"	"29"	"2011"	"2011"	Suppressed	6010688	Suppressed
+	"Missouri"	"29"	"2012"	"2012"	Suppressed	6021988	Suppressed
+	"Missouri"	"29"	"2013"	"2013"	Suppressed	6044171	Suppressed
+	"Missouri"	"29"	"2014"	"2014"	Suppressed	6063589	Suppressed
+	"Missouri"	"29"	"2015"	"2015"	Suppressed	6083672	Suppressed
+	"Missouri"	"29"	"2016"	"2016"	Suppressed	6093000	Suppressed
+	"Missouri"	"29"	"2017"	"2017"	Suppressed	6113532	Suppressed
+	"Missouri"	"29"	"2018"	"2018"	Suppressed	6126452	Suppressed
+	"Missouri"	"29"	"2019"	"2019"	Suppressed	6137428	Suppressed
+"Total"	"Missouri"	"29"			Suppressed	124019337	Suppressed
+	"Montana"	"30"	"1999"	"1999"	Suppressed	897507	Suppressed
+	"Montana"	"30"	"2000"	"2000"	Suppressed	902195	Suppressed
+	"Montana"	"30"	"2001"	"2001"	Suppressed	906961	Suppressed
+	"Montana"	"30"	"2002"	"2002"	Suppressed	911667	Suppressed
+	"Montana"	"30"	"2003"	"2003"	Suppressed	919630	Suppressed
+	"Montana"	"30"	"2004"	"2004"	Suppressed	930009	Suppressed
+	"Montana"	"30"	"2005"	"2005"	Suppressed	940102	Suppressed
+	"Montana"	"30"	"2006"	"2006"	Suppressed	952692	Suppressed
+	"Montana"	"30"	"2007"	"2007"	Suppressed	964706	Suppressed
+	"Montana"	"30"	"2008"	"2008"	Suppressed	976415	Suppressed
+	"Montana"	"30"	"2009"	"2009"	Suppressed	983982	Suppressed
+	"Montana"	"30"	"2010"	"2010"	Suppressed	989415	Suppressed
+	"Montana"	"30"	"2011"	"2011"	Suppressed	998199	Suppressed
+	"Montana"	"30"	"2012"	"2012"	Suppressed	1005141	Suppressed
+	"Montana"	"30"	"2013"	"2013"	Suppressed	1015165	Suppressed
+	"Montana"	"30"	"2014"	"2014"	Suppressed	1023579	Suppressed
+	"Montana"	"30"	"2015"	"2015"	Suppressed	1032949	Suppressed
+	"Montana"	"30"	"2016"	"2016"	Suppressed	1042520	Suppressed
+	"Montana"	"30"	"2017"	"2017"	Suppressed	1050493	Suppressed
+	"Montana"	"30"	"2018"	"2018"	Suppressed	1062305	Suppressed
+	"Montana"	"30"	"2019"	"2019"	Suppressed	1068778	Suppressed
+"Total"	"Montana"	"30"			Suppressed	20574410	Suppressed
+	"Nebraska"	"31"	"1999"	"1999"	Suppressed	1704764	Suppressed
+	"Nebraska"	"31"	"2000"	"2000"	Suppressed	1711263	Suppressed
+	"Nebraska"	"31"	"2001"	"2001"	Suppressed	1719836	Suppressed
+	"Nebraska"	"31"	"2002"	"2002"	Suppressed	1728292	Suppressed
+	"Nebraska"	"31"	"2003"	"2003"	Suppressed	1738643	Suppressed
+	"Nebraska"	"31"	"2004"	"2004"	Suppressed	1749370	Suppressed
+	"Nebraska"	"31"	"2005"	"2005"	Suppressed	1761497	Suppressed
+	"Nebraska"	"31"	"2006"	"2006"	Suppressed	1772693	Suppressed
+	"Nebraska"	"31"	"2007"	"2007"	Suppressed	1783440	Suppressed
+	"Nebraska"	"31"	"2008"	"2008"	Suppressed	1796378	Suppressed
+	"Nebraska"	"31"	"2009"	"2009"	Suppressed	1812683	Suppressed
+	"Nebraska"	"31"	"2010"	"2010"	Suppressed	1826341	Suppressed
+	"Nebraska"	"31"	"2011"	"2011"	Suppressed	1842641	Suppressed
+	"Nebraska"	"31"	"2012"	"2012"	Suppressed	1855525	Suppressed
+	"Nebraska"	"31"	"2013"	"2013"	Suppressed	1868516	Suppressed
+	"Nebraska"	"31"	"2014"	"2014"	Suppressed	1881503	Suppressed
+	"Nebraska"	"31"	"2015"	"2015"	Suppressed	1896190	Suppressed
+	"Nebraska"	"31"	"2016"	"2016"	Suppressed	1907116	Suppressed
+	"Nebraska"	"31"	"2017"	"2017"	Suppressed	1920076	Suppressed
+	"Nebraska"	"31"	"2018"	"2018"	Suppressed	1929268	Suppressed
+	"Nebraska"	"31"	"2019"	"2019"	Suppressed	1934408	Suppressed
+"Total"	"Nebraska"	"31"			Suppressed	38140443	Suppressed
+	"Nevada"	"32"	"1999"	"1999"	Suppressed	1934718	Suppressed
+	"Nevada"	"32"	"2000"	"2000"	Suppressed	1998257	Suppressed
+	"Nevada"	"32"	"2001"	"2001"	Suppressed	2098399	Suppressed
+	"Nevada"	"32"	"2002"	"2002"	Suppressed	2173791	Suppressed
+	"Nevada"	"32"	"2003"	"2003"	Suppressed	2248850	Suppressed
+	"Nevada"	"32"	"2004"	"2004"	Suppressed	2346222	Suppressed
+	"Nevada"	"32"	"2005"	"2005"	Suppressed	2432143	Suppressed
+	"Nevada"	"32"	"2006"	"2006"	Suppressed	2522658	Suppressed
+	"Nevada"	"32"	"2007"	"2007"	Suppressed	2601072	Suppressed
+	"Nevada"	"32"	"2008"	"2008"	Suppressed	2653630	Suppressed
+	"Nevada"	"32"	"2009"	"2009"	Suppressed	2684665	Suppressed
+	"Nevada"	"32"	"2010"	"2010"	Suppressed	2700551	Suppressed
+	"Nevada"	"32"	"2011"	"2011"	Suppressed	2723322	Suppressed
+	"Nevada"	"32"	"2012"	"2012"	Suppressed	2758931	Suppressed
+	"Nevada"	"32"	"2013"	"2013"	Suppressed	2790136	Suppressed
+	"Nevada"	"32"	"2014"	"2014"	Suppressed	2839099	Suppressed
+	"Nevada"	"32"	"2015"	"2015"	Suppressed	2890845	Suppressed
+	"Nevada"	"32"	"2016"	"2016"	Suppressed	2940058	Suppressed
+	"Nevada"	"32"	"2017"	"2017"	Suppressed	2998039	Suppressed
+	"Nevada"	"32"	"2018"	"2018"	Suppressed	3034392	Suppressed
+	"Nevada"	"32"	"2019"	"2019"	Suppressed	3080156	Suppressed
+"Total"	"Nevada"	"32"			Suppressed	54449934	Suppressed
+	"New Hampshire"	"33"	"1999"	"1999"	Suppressed	1222014	Suppressed
+	"New Hampshire"	"33"	"2000"	"2000"	Suppressed	1235786	Suppressed
+	"New Hampshire"	"33"	"2001"	"2001"	Suppressed	1255517	Suppressed
+	"New Hampshire"	"33"	"2002"	"2002"	Suppressed	1269089	Suppressed
+	"New Hampshire"	"33"	"2003"	"2003"	Suppressed	1279840	Suppressed
+	"New Hampshire"	"33"	"2004"	"2004"	Suppressed	1290121	Suppressed
+	"New Hampshire"	"33"	"2005"	"2005"	Suppressed	1298492	Suppressed
+	"New Hampshire"	"33"	"2006"	"2006"	Suppressed	1308389	Suppressed
+	"New Hampshire"	"33"	"2007"	"2007"	Suppressed	1312540	Suppressed
+	"New Hampshire"	"33"	"2008"	"2008"	Suppressed	1315906	Suppressed
+	"New Hampshire"	"33"	"2009"	"2009"	Suppressed	1316102	Suppressed
+	"New Hampshire"	"33"	"2010"	"2010"	Suppressed	1316470	Suppressed
+	"New Hampshire"	"33"	"2011"	"2011"	Suppressed	1318194	Suppressed
+	"New Hampshire"	"33"	"2012"	"2012"	Suppressed	1320718	Suppressed
+	"New Hampshire"	"33"	"2013"	"2013"	Suppressed	1323459	Suppressed
+	"New Hampshire"	"33"	"2014"	"2014"	Suppressed	1326813	Suppressed
+	"New Hampshire"	"33"	"2015"	"2015"	Suppressed	1330608	Suppressed
+	"New Hampshire"	"33"	"2016"	"2016"	Suppressed	1334795	Suppressed
+	"New Hampshire"	"33"	"2017"	"2017"	Suppressed	1342795	Suppressed
+	"New Hampshire"	"33"	"2018"	"2018"	Suppressed	1356458	Suppressed
+	"New Hampshire"	"33"	"2019"	"2019"	Suppressed	1359711	Suppressed
+"Total"	"New Hampshire"	"33"			Suppressed	27433817	Suppressed
+	"New Jersey"	"34"	"1999"	"1999"	Suppressed	8359592	Suppressed
+	"New Jersey"	"34"	"2000"	"2000"	Suppressed	8414350	Suppressed
+	"New Jersey"	"34"	"2001"	"2001"	Suppressed	8492671	Suppressed
+	"New Jersey"	"34"	"2002"	"2002"	Suppressed	8552643	Suppressed
+	"New Jersey"	"34"	"2003"	"2003"	Suppressed	8601402	Suppressed
+	"New Jersey"	"34"	"2004"	"2004"	Suppressed	8634561	Suppressed
+	"New Jersey"	"34"	"2005"	"2005"	Suppressed	8651974	Suppressed
+	"New Jersey"	"34"	"2006"	"2006"	Suppressed	8661679	Suppressed
+	"New Jersey"	"34"	"2007"	"2007"	Suppressed	8677885	Suppressed
+	"New Jersey"	"34"	"2008"	"2008"	Suppressed	8711090	Suppressed
+	"New Jersey"	"34"	"2009"	"2009"	Suppressed	8755602	Suppressed
+	"New Jersey"	"34"	"2010"	"2010"	Suppressed	8791894	Suppressed
+	"New Jersey"	"34"	"2011"	"2011"	Suppressed	8821155	Suppressed
+	"New Jersey"	"34"	"2012"	"2012"	Suppressed	8864590	Suppressed
+	"New Jersey"	"34"	"2013"	"2013"	Suppressed	8899339	Suppressed
+	"New Jersey"	"34"	"2014"	"2014"	Suppressed	8938175	Suppressed
+	"New Jersey"	"34"	"2015"	"2015"	Suppressed	8958013	Suppressed
+	"New Jersey"	"34"	"2016"	"2016"	Suppressed	8944469	Suppressed
+	"New Jersey"	"34"	"2017"	"2017"	Suppressed	9005644	Suppressed
+	"New Jersey"	"34"	"2018"	"2018"	Suppressed	8908520	Suppressed
+	"New Jersey"	"34"	"2019"	"2019"	Suppressed	8882190	Suppressed
+"Total"	"New Jersey"	"34"			Suppressed	183527438	Suppressed
+	"New Mexico"	"35"	"1999"	"1999"	Suppressed	1808082	Suppressed
+	"New Mexico"	"35"	"2000"	"2000"	Suppressed	1819046	Suppressed
+	"New Mexico"	"35"	"2001"	"2001"	Suppressed	1831690	Suppressed
+	"New Mexico"	"35"	"2002"	"2002"	Suppressed	1855309	Suppressed
+	"New Mexico"	"35"	"2003"	"2003"	Suppressed	1877574	Suppressed
+	"New Mexico"	"35"	"2004"	"2004"	Suppressed	1903808	Suppressed
+	"New Mexico"	"35"	"2005"	"2005"	Suppressed	1932274	Suppressed
+	"New Mexico"	"35"	"2006"	"2006"	Suppressed	1962137	Suppressed
+	"New Mexico"	"35"	"2007"	"2007"	Suppressed	1990070	Suppressed
+	"New Mexico"	"35"	"2008"	"2008"	Suppressed	2010662	Suppressed
+	"New Mexico"	"35"	"2009"	"2009"	Suppressed	2036802	Suppressed
+	"New Mexico"	"35"	"2010"	"2010"	Suppressed	2059179	Suppressed
+	"New Mexico"	"35"	"2011"	"2011"	Suppressed	2082224	Suppressed
+	"New Mexico"	"35"	"2012"	"2012"	Suppressed	2085538	Suppressed
+	"New Mexico"	"35"	"2013"	"2013"	Suppressed	2085287	Suppressed
+	"New Mexico"	"35"	"2014"	"2014"	Suppressed	2085572	Suppressed
+	"New Mexico"	"35"	"2015"	"2015"	Suppressed	2085109	Suppressed
+	"New Mexico"	"35"	"2016"	"2016"	Suppressed	2081015	Suppressed
+	"New Mexico"	"35"	"2017"	"2017"	Suppressed	2088070	Suppressed
+	"New Mexico"	"35"	"2018"	"2018"	Suppressed	2095428	Suppressed
+	"New Mexico"	"35"	"2019"	"2019"	Suppressed	2096829	Suppressed
+"Total"	"New Mexico"	"35"			Suppressed	41871705	Suppressed
+	"New York"	"36"	"1999"	"1999"	Suppressed	18882725	Suppressed
+	"New York"	"36"	"2000"	"2000"	Suppressed	18976457	Suppressed
+	"New York"	"36"	"2001"	"2001"	Suppressed	19082838	Suppressed
+	"New York"	"36"	"2002"	"2002"	Suppressed	19137800	Suppressed
+	"New York"	"36"	"2003"	"2003"	Suppressed	19175939	Suppressed
+	"New York"	"36"	"2004"	"2004"	Suppressed	19171567	Suppressed
+	"New York"	"36"	"2005"	"2005"	Suppressed	19132610	Suppressed
+	"New York"	"36"	"2006"	"2006"	Suppressed	19104631	Suppressed
+	"New York"	"36"	"2007"	"2007"	Suppressed	19132335	Suppressed
+	"New York"	"36"	"2008"	"2008"	Suppressed	19212436	Suppressed
+	"New York"	"36"	"2009"	"2009"	Suppressed	19307066	Suppressed
+	"New York"	"36"	"2010"	"2010"	Suppressed	19378102	Suppressed
+	"New York"	"36"	"2011"	"2011"	Suppressed	19465197	Suppressed
+	"New York"	"36"	"2012"	"2012"	Suppressed	19570261	Suppressed
+	"New York"	"36"	"2013"	"2013"	Suppressed	19651127	Suppressed
+	"New York"	"36"	"2014"	"2014"	Suppressed	19746227	Suppressed
+	"New York"	"36"	"2015"	"2015"	Suppressed	19795791	Suppressed
+	"New York"	"36"	"2016"	"2016"	Suppressed	19745289	Suppressed
+	"New York"	"36"	"2017"	"2017"	Suppressed	19849399	Suppressed
+	"New York"	"36"	"2018"	"2018"	Suppressed	19542209	Suppressed
+	"New York"	"36"	"2019"	"2019"	Suppressed	19453561	Suppressed
+"Total"	"New York"	"36"			Suppressed	406513567	Suppressed
+	"North Carolina"	"37"	"1999"	"1999"	Suppressed	7949361	Suppressed
+	"North Carolina"	"37"	"2000"	"2000"	Suppressed	8049313	Suppressed
+	"North Carolina"	"37"	"2001"	"2001"	Suppressed	8210122	Suppressed
+	"North Carolina"	"37"	"2002"	"2002"	Suppressed	8326201	Suppressed
+	"North Carolina"	"37"	"2003"	"2003"	Suppressed	8422501	Suppressed
+	"North Carolina"	"37"	"2004"	"2004"	Suppressed	8553152	Suppressed
+	"North Carolina"	"37"	"2005"	"2005"	Suppressed	8705407	Suppressed
+	"North Carolina"	"37"	"2006"	"2006"	Suppressed	8917270	Suppressed
+	"North Carolina"	"37"	"2007"	"2007"	Suppressed	9118037	Suppressed
+	"North Carolina"	"37"	"2008"	"2008"	Suppressed	9309449	Suppressed
+	"North Carolina"	"37"	"2009"	"2009"	Suppressed	9449566	Suppressed
+	"North Carolina"	"37"	"2010"	"2010"	Suppressed	9535483	Suppressed
+	"North Carolina"	"37"	"2011"	"2011"	Suppressed	9656401	Suppressed
+	"North Carolina"	"37"	"2012"	"2012"	Suppressed	9752073	Suppressed
+	"North Carolina"	"37"	"2013"	"2013"	Suppressed	9848060	Suppressed
+	"North Carolina"	"37"	"2014"	"2014"	Suppressed	9943964	Suppressed
+	"North Carolina"	"37"	"2015"	"2015"	Suppressed	10042802	Suppressed
+	"North Carolina"	"37"	"2016"	"2016"	Suppressed	10146788	Suppressed
+	"North Carolina"	"37"	"2017"	"2017"	Suppressed	10273419	Suppressed
+	"North Carolina"	"37"	"2018"	"2018"	Suppressed	10383620	Suppressed
+	"North Carolina"	"37"	"2019"	"2019"	Suppressed	10488084	Suppressed
+"Total"	"North Carolina"	"37"			Suppressed	195081073	Suppressed
+	"North Dakota"	"38"	"1999"	"1999"	Suppressed	644259	Suppressed
+	"North Dakota"	"38"	"2000"	"2000"	Suppressed	642200	Suppressed
+	"North Dakota"	"38"	"2001"	"2001"	Suppressed	639062	Suppressed
+	"North Dakota"	"38"	"2002"	"2002"	Suppressed	638168	Suppressed
+	"North Dakota"	"38"	"2003"	"2003"	Suppressed	638817	Suppressed
+	"North Dakota"	"38"	"2004"	"2004"	Suppressed	644705	Suppressed
+	"North Dakota"	"38"	"2005"	"2005"	Suppressed	646089	Suppressed
+	"North Dakota"	"38"	"2006"	"2006"	Suppressed	649422	Suppressed
+	"North Dakota"	"38"	"2007"	"2007"	Suppressed	652822	Suppressed
+	"North Dakota"	"38"	"2008"	"2008"	Suppressed	657569	Suppressed
+	"North Dakota"	"38"	"2009"	"2009"	Suppressed	664968	Suppressed
+	"North Dakota"	"38"	"2010"	"2010"	Suppressed	672591	Suppressed
+	"North Dakota"	"38"	"2011"	"2011"	Suppressed	683932	Suppressed
+	"North Dakota"	"38"	"2012"	"2012"	Suppressed	699628	Suppressed
+	"North Dakota"	"38"	"2013"	"2013"	Suppressed	723393	Suppressed
+	"North Dakota"	"38"	"2014"	"2014"	Suppressed	739482	Suppressed
+	"North Dakota"	"38"	"2015"	"2015"	Suppressed	756927	Suppressed
+	"North Dakota"	"38"	"2016"	"2016"	Suppressed	757952	Suppressed
+	"North Dakota"	"38"	"2017"	"2017"	Suppressed	755393	Suppressed
+	"North Dakota"	"38"	"2018"	"2018"	Suppressed	760077	Suppressed
+	"North Dakota"	"38"	"2019"	"2019"	Suppressed	762062	Suppressed
+"Total"	"North Dakota"	"38"			Suppressed	14429518	Suppressed
+	"Ohio"	"39"	"1999"	"1999"	Suppressed	11335454	Suppressed
+	"Ohio"	"39"	"2000"	"2000"	Suppressed	11353140	Suppressed
+	"Ohio"	"39"	"2001"	"2001"	Suppressed	11387404	Suppressed
+	"Ohio"	"39"	"2002"	"2002"	Suppressed	11407889	Suppressed
+	"Ohio"	"39"	"2003"	"2003"	Suppressed	11434788	Suppressed
+	"Ohio"	"39"	"2004"	"2004"	Suppressed	11452251	Suppressed
+	"Ohio"	"39"	"2005"	"2005"	Suppressed	11463320	Suppressed
+	"Ohio"	"39"	"2006"	"2006"	Suppressed	11481213	Suppressed
+	"Ohio"	"39"	"2007"	"2007"	Suppressed	11500468	Suppressed
+	"Ohio"	"39"	"2008"	"2008"	Suppressed	11515391	Suppressed
+	"Ohio"	"39"	"2009"	"2009"	Suppressed	11528896	Suppressed
+	"Ohio"	"39"	"2010"	"2010"	Suppressed	11536504	Suppressed
+	"Ohio"	"39"	"2011"	"2011"	Suppressed	11544951	Suppressed
+	"Ohio"	"39"	"2012"	"2012"	Suppressed	11544225	Suppressed
+	"Ohio"	"39"	"2013"	"2013"	Suppressed	11570808	Suppressed
+	"Ohio"	"39"	"2014"	"2014"	Suppressed	11594163	Suppressed
+	"Ohio"	"39"	"2015"	"2015"	Suppressed	11613423	Suppressed
+	"Ohio"	"39"	"2016"	"2016"	Suppressed	11614373	Suppressed
+	"Ohio"	"39"	"2017"	"2017"	Suppressed	11658609	Suppressed
+	"Ohio"	"39"	"2018"	"2018"	Suppressed	11689442	Suppressed
+	"Ohio"	"39"	"2019"	"2019"	Suppressed	11689100	Suppressed
+"Total"	"Ohio"	"39"			Suppressed	241915812	Suppressed
+	"Oklahoma"	"40"	"1999"	"1999"	Suppressed	3437147	Suppressed
+	"Oklahoma"	"40"	"2000"	"2000"	Suppressed	3450654	Suppressed
+	"Oklahoma"	"40"	"2001"	"2001"	Suppressed	3467100	Suppressed
+	"Oklahoma"	"40"	"2002"	"2002"	Suppressed	3489080	Suppressed
+	"Oklahoma"	"40"	"2003"	"2003"	Suppressed	3504892	Suppressed
+	"Oklahoma"	"40"	"2004"	"2004"	Suppressed	3525233	Suppressed
+	"Oklahoma"	"40"	"2005"	"2005"	Suppressed	3548597	Suppressed
+	"Oklahoma"	"40"	"2006"	"2006"	Suppressed	3594090	Suppressed
+	"Oklahoma"	"40"	"2007"	"2007"	Suppressed	3634349	Suppressed
+	"Oklahoma"	"40"	"2008"	"2008"	Suppressed	3668976	Suppressed
+	"Oklahoma"	"40"	"2009"	"2009"	Suppressed	3717572	Suppressed
+	"Oklahoma"	"40"	"2010"	"2010"	Suppressed	3751351	Suppressed
+	"Oklahoma"	"40"	"2011"	"2011"	Suppressed	3791508	Suppressed
+	"Oklahoma"	"40"	"2012"	"2012"	Suppressed	3814820	Suppressed
+	"Oklahoma"	"40"	"2013"	"2013"	Suppressed	3850568	Suppressed
+	"Oklahoma"	"40"	"2014"	"2014"	Suppressed	3878051	Suppressed
+	"Oklahoma"	"40"	"2015"	"2015"	Suppressed	3911338	Suppressed
+	"Oklahoma"	"40"	"2016"	"2016"	Suppressed	3923561	Suppressed
+	"Oklahoma"	"40"	"2017"	"2017"	Suppressed	3930864	Suppressed
+	"Oklahoma"	"40"	"2018"	"2018"	Suppressed	3943079	Suppressed
+	"Oklahoma"	"40"	"2019"	"2019"	Suppressed	3956971	Suppressed
+"Total"	"Oklahoma"	"40"			Suppressed	77789801	Suppressed
+	"Oregon"	"41"	"1999"	"1999"	Suppressed	3393941	Suppressed
+	"Oregon"	"41"	"2000"	"2000"	Suppressed	3421399	Suppressed
+	"Oregon"	"41"	"2001"	"2001"	Suppressed	3467937	Suppressed
+	"Oregon"	"41"	"2002"	"2002"	Suppressed	3513424	Suppressed
+	"Oregon"	"41"	"2003"	"2003"	Suppressed	3547376	Suppressed
+	"Oregon"	"41"	"2004"	"2004"	Suppressed	3569463	Suppressed
+	"Oregon"	"41"	"2005"	"2005"	Suppressed	3613202	Suppressed
+	"Oregon"	"41"	"2006"	"2006"	Suppressed	3670883	Suppressed
+	"Oregon"	"41"	"2007"	"2007"	Suppressed	3722417	Suppressed
+	"Oregon"	"41"	"2008"	"2008"	Suppressed	3768748	Suppressed
+	"Oregon"	"41"	"2009"	"2009"	Suppressed	3808600	Suppressed
+	"Oregon"	"41"	"2010"	"2010"	Suppressed	3831074	Suppressed
+	"Oregon"	"41"	"2011"	"2011"	Suppressed	3871859	Suppressed
+	"Oregon"	"41"	"2012"	"2012"	Suppressed	3899353	Suppressed
+	"Oregon"	"41"	"2013"	"2013"	Suppressed	3930065	Suppressed
+	"Oregon"	"41"	"2014"	"2014"	Suppressed	3970239	Suppressed
+	"Oregon"	"41"	"2015"	"2015"	Suppressed	4028977	Suppressed
+	"Oregon"	"41"	"2016"	"2016"	Suppressed	4093465	Suppressed
+	"Oregon"	"41"	"2017"	"2017"	Suppressed	4142776	Suppressed
+	"Oregon"	"41"	"2018"	"2018"	Suppressed	4190713	Suppressed
+	"Oregon"	"41"	"2019"	"2019"	Suppressed	4217737	Suppressed
+"Total"	"Oregon"	"41"			Suppressed	79673648	Suppressed
+	"Pennsylvania"	"42"	"1999"	"1999"	Suppressed	12263805	Suppressed
+	"Pennsylvania"	"42"	"2000"	"2000"	Suppressed	12281054	Suppressed
+	"Pennsylvania"	"42"	"2001"	"2001"	Suppressed	12298970	Suppressed
+	"Pennsylvania"	"42"	"2002"	"2002"	Suppressed	12331031	Suppressed
+	"Pennsylvania"	"42"	"2003"	"2003"	Suppressed	12374658	Suppressed
+	"Pennsylvania"	"42"	"2004"	"2004"	Suppressed	12410722	Suppressed
+	"Pennsylvania"	"42"	"2005"	"2005"	Suppressed	12449990	Suppressed
+	"Pennsylvania"	"42"	"2006"	"2006"	Suppressed	12510809	Suppressed
+	"Pennsylvania"	"42"	"2007"	"2007"	Suppressed	12563937	Suppressed
+	"Pennsylvania"	"42"	"2008"	"2008"	Suppressed	12612285	Suppressed
+	"Pennsylvania"	"42"	"2009"	"2009"	Suppressed	12666858	Suppressed
+	"Pennsylvania"	"42"	"2010"	"2010"	Suppressed	12702379	Suppressed
+	"Pennsylvania"	"42"	"2011"	"2011"	Suppressed	12742886	Suppressed
+	"Pennsylvania"	"42"	"2012"	"2012"	Suppressed	12763536	Suppressed
+	"Pennsylvania"	"42"	"2013"	"2013"	Suppressed	12773801	Suppressed
+	"Pennsylvania"	"42"	"2014"	"2014"	Suppressed	12787209	Suppressed
+	"Pennsylvania"	"42"	"2015"	"2015"	Suppressed	12802503	Suppressed
+	"Pennsylvania"	"42"	"2016"	"2016"	Suppressed	12784227	Suppressed
+	"Pennsylvania"	"42"	"2017"	"2017"	Suppressed	12805537	Suppressed
+	"Pennsylvania"	"42"	"2018"	"2018"	Suppressed	12807060	Suppressed
+	"Pennsylvania"	"42"	"2019"	"2019"	Suppressed	12801989	Suppressed
+"Total"	"Pennsylvania"	"42"			Suppressed	264535246	Suppressed
+	"Rhode Island"	"44"	"1999"	"1999"	Suppressed	1040402	Suppressed
+	"Rhode Island"	"44"	"2000"	"2000"	Suppressed	1048319	Suppressed
+	"Rhode Island"	"44"	"2001"	"2001"	Suppressed	1057142	Suppressed
+	"Rhode Island"	"44"	"2002"	"2002"	Suppressed	1065995	Suppressed
+	"Rhode Island"	"44"	"2003"	"2003"	Suppressed	1071342	Suppressed
+	"Rhode Island"	"44"	"2004"	"2004"	Suppressed	1074579	Suppressed
+	"Rhode Island"	"44"	"2005"	"2005"	Suppressed	1067916	Suppressed
+	"Rhode Island"	"44"	"2006"	"2006"	Suppressed	1063096	Suppressed
+	"Rhode Island"	"44"	"2007"	"2007"	Suppressed	1057315	Suppressed
+	"Rhode Island"	"44"	"2008"	"2008"	Suppressed	1055003	Suppressed
+	"Rhode Island"	"44"	"2009"	"2009"	Suppressed	1053646	Suppressed
+	"Rhode Island"	"44"	"2010"	"2010"	Suppressed	1052567	Suppressed
+	"Rhode Island"	"44"	"2011"	"2011"	Suppressed	1051302	Suppressed
+	"Rhode Island"	"44"	"2012"	"2012"	Suppressed	1050292	Suppressed
+	"Rhode Island"	"44"	"2013"	"2013"	Suppressed	1051511	Suppressed
+	"Rhode Island"	"44"	"2014"	"2014"	Suppressed	1055173	Suppressed
+	"Rhode Island"	"44"	"2015"	"2015"	Suppressed	1056298	Suppressed
+	"Rhode Island"	"44"	"2016"	"2016"	Suppressed	1056426	Suppressed
+	"Rhode Island"	"44"	"2017"	"2017"	Suppressed	1059639	Suppressed
+	"Rhode Island"	"44"	"2018"	"2018"	Suppressed	1057315	Suppressed
+	"Rhode Island"	"44"	"2019"	"2019"	Suppressed	1059361	Suppressed
+"Total"	"Rhode Island"	"44"			Suppressed	22204639	Suppressed
+	"South Carolina"	"45"	"1999"	"1999"	Suppressed	3974682	Suppressed
+	"South Carolina"	"45"	"2000"	"2000"	Suppressed	4012012	Suppressed
+	"South Carolina"	"45"	"2001"	"2001"	Suppressed	4064995	Suppressed
+	"South Carolina"	"45"	"2002"	"2002"	Suppressed	4107795	Suppressed
+	"South Carolina"	"45"	"2003"	"2003"	Suppressed	4150297	Suppressed
+	"South Carolina"	"45"	"2004"	"2004"	Suppressed	4210921	Suppressed
+	"South Carolina"	"45"	"2005"	"2005"	Suppressed	4270150	Suppressed
+	"South Carolina"	"45"	"2006"	"2006"	Suppressed	4357847	Suppressed
+	"South Carolina"	"45"	"2007"	"2007"	Suppressed	4444110	Suppressed
+	"South Carolina"	"45"	"2008"	"2008"	Suppressed	4528996	Suppressed
+	"South Carolina"	"45"	"2009"	"2009"	Suppressed	4589872	Suppressed
+	"South Carolina"	"45"	"2010"	"2010"	Suppressed	4625364	Suppressed
+	"South Carolina"	"45"	"2011"	"2011"	Suppressed	4679230	Suppressed
+	"South Carolina"	"45"	"2012"	"2012"	Suppressed	4723723	Suppressed
+	"South Carolina"	"45"	"2013"	"2013"	Suppressed	4774839	Suppressed
+	"South Carolina"	"45"	"2014"	"2014"	Suppressed	4832482	Suppressed
+	"South Carolina"	"45"	"2015"	"2015"	Suppressed	4896146	Suppressed
+	"South Carolina"	"45"	"2016"	"2016"	Suppressed	4961119	Suppressed
+	"South Carolina"	"45"	"2017"	"2017"	Suppressed	5024369	Suppressed
+	"South Carolina"	"45"	"2018"	"2018"	Suppressed	5084127	Suppressed
+	"South Carolina"	"45"	"2019"	"2019"	Suppressed	5148714	Suppressed
+"Total"	"South Carolina"	"45"			Suppressed	95461790	Suppressed
+	"South Dakota"	"46"	"1999"	"1999"	Suppressed	750412	Suppressed
+	"South Dakota"	"46"	"2000"	"2000"	Suppressed	754844	Suppressed
+	"South Dakota"	"46"	"2001"	"2001"	Suppressed	757972	Suppressed
+	"South Dakota"	"46"	"2002"	"2002"	Suppressed	760020	Suppressed
+	"South Dakota"	"46"	"2003"	"2003"	Suppressed	763729	Suppressed
+	"South Dakota"	"46"	"2004"	"2004"	Suppressed	770396	Suppressed
+	"South Dakota"	"46"	"2005"	"2005"	Suppressed	775493	Suppressed
+	"South Dakota"	"46"	"2006"	"2006"	Suppressed	783033	Suppressed
+	"South Dakota"	"46"	"2007"	"2007"	Suppressed	791623	Suppressed
+	"South Dakota"	"46"	"2008"	"2008"	Suppressed	799124	Suppressed
+	"South Dakota"	"46"	"2009"	"2009"	Suppressed	807067	Suppressed
+	"South Dakota"	"46"	"2010"	"2010"	Suppressed	814180	Suppressed
+	"South Dakota"	"46"	"2011"	"2011"	Suppressed	824082	Suppressed
+	"South Dakota"	"46"	"2012"	"2012"	Suppressed	833354	Suppressed
+	"South Dakota"	"46"	"2013"	"2013"	Suppressed	844877	Suppressed
+	"South Dakota"	"46"	"2014"	"2014"	Suppressed	853175	Suppressed
+	"South Dakota"	"46"	"2015"	"2015"	Suppressed	858469	Suppressed
+	"South Dakota"	"46"	"2016"	"2016"	Suppressed	865454	Suppressed
+	"South Dakota"	"46"	"2017"	"2017"	Suppressed	869666	Suppressed
+	"South Dakota"	"46"	"2018"	"2018"	Suppressed	882235	Suppressed
+	"South Dakota"	"46"	"2019"	"2019"	Suppressed	884659	Suppressed
+"Total"	"South Dakota"	"46"			Suppressed	17043864	Suppressed
+	"Tennessee"	"47"	"1999"	"1999"	Suppressed	5638706	Suppressed
+	"Tennessee"	"47"	"2000"	"2000"	Suppressed	5689283	Suppressed
+	"Tennessee"	"47"	"2001"	"2001"	Suppressed	5750789	Suppressed
+	"Tennessee"	"47"	"2002"	"2002"	Suppressed	5795918	Suppressed
+	"Tennessee"	"47"	"2003"	"2003"	Suppressed	5847812	Suppressed
+	"Tennessee"	"47"	"2004"	"2004"	Suppressed	5910809	Suppressed
+	"Tennessee"	"47"	"2005"	"2005"	Suppressed	5991057	Suppressed
+	"Tennessee"	"47"	"2006"	"2006"	Suppressed	6088766	Suppressed
+	"Tennessee"	"47"	"2007"	"2007"	Suppressed	6175727	Suppressed
+	"Tennessee"	"47"	"2008"	"2008"	Suppressed	6247411	Suppressed
+	"Tennessee"	"47"	"2009"	"2009"	Suppressed	6306019	Suppressed
+	"Tennessee"	"47"	"2010"	"2010"	Suppressed	6346105	Suppressed
+	"Tennessee"	"47"	"2011"	"2011"	Suppressed	6403353	Suppressed
+	"Tennessee"	"47"	"2012"	"2012"	Suppressed	6456243	Suppressed
+	"Tennessee"	"47"	"2013"	"2013"	Suppressed	6495978	Suppressed
+	"Tennessee"	"47"	"2014"	"2014"	Suppressed	6549352	Suppressed
+	"Tennessee"	"47"	"2015"	"2015"	Suppressed	6600299	Suppressed
+	"Tennessee"	"47"	"2016"	"2016"	Suppressed	6651194	Suppressed
+	"Tennessee"	"47"	"2017"	"2017"	Suppressed	6715984	Suppressed
+	"Tennessee"	"47"	"2018"	"2018"	Suppressed	6770010	Suppressed
+	"Tennessee"	"47"	"2019"	"2019"	Suppressed	6829174	Suppressed
+"Total"	"Tennessee"	"47"			Suppressed	131259989	Suppressed
+	"Texas"	"48"	"1999"	"1999"	Suppressed	20558220	Suppressed
+	"Texas"	"48"	"2000"	"2000"	Suppressed	20851820	Suppressed
+	"Texas"	"48"	"2001"	"2001"	Suppressed	21319622	Suppressed
+	"Texas"	"48"	"2002"	"2002"	Suppressed	21690325	Suppressed
+	"Texas"	"48"	"2003"	"2003"	Suppressed	22030931	Suppressed
+	"Texas"	"48"	"2004"	"2004"	Suppressed	22394023	Suppressed
+	"Texas"	"48"	"2005"	"2005"	Suppressed	22778123	Suppressed
+	"Texas"	"48"	"2006"	"2006"	Suppressed	23359580	Suppressed
+	"Texas"	"48"	"2007"	"2007"	Suppressed	23831983	Suppressed
+	"Texas"	"48"	"2008"	"2008"	Suppressed	24309039	Suppressed
+	"Texas"	"48"	"2009"	"2009"	Suppressed	24801761	Suppressed
+	"Texas"	"48"	"2010"	"2010"	Suppressed	25145561	Suppressed
+	"Texas"	"48"	"2011"	"2011"	Suppressed	25674681	Suppressed
+	"Texas"	"48"	"2012"	"2012"	Suppressed	26059203	Suppressed
+	"Texas"	"48"	"2013"	"2013"	Suppressed	26448193	Suppressed
+	"Texas"	"48"	"2014"	"2014"	Suppressed	26956958	Suppressed
+	"Texas"	"48"	"2015"	"2015"	Suppressed	27469114	Suppressed
+	"Texas"	"48"	"2016"	"2016"	Suppressed	27862596	Suppressed
+	"Texas"	"48"	"2017"	"2017"	Suppressed	28304596	Suppressed
+	"Texas"	"48"	"2018"	"2018"	Suppressed	28701845	Suppressed
+	"Texas"	"48"	"2019"	"2019"	Suppressed	28995881	Suppressed
+"Total"	"Texas"	"48"			Suppressed	519544055	Suppressed
+	"Utah"	"49"	"1999"	"1999"	Suppressed	2203482	Suppressed
+	"Utah"	"49"	"2000"	"2000"	Suppressed	2233169	Suppressed
+	"Utah"	"49"	"2001"	"2001"	Suppressed	2283715	Suppressed
+	"Utah"	"49"	"2002"	"2002"	Suppressed	2324815	Suppressed
+	"Utah"	"49"	"2003"	"2003"	Suppressed	2360137	Suppressed
+	"Utah"	"49"	"2004"	"2004"	Suppressed	2401580	Suppressed
+	"Utah"	"49"	"2005"	"2005"	Suppressed	2457719	Suppressed
+	"Utah"	"49"	"2006"	"2006"	Suppressed	2525507	Suppressed
+	"Utah"	"49"	"2007"	"2007"	Suppressed	2597746	Suppressed
+	"Utah"	"49"	"2008"	"2008"	Suppressed	2663029	Suppressed
+	"Utah"	"49"	"2009"	"2009"	Suppressed	2723421	Suppressed
+	"Utah"	"49"	"2010"	"2010"	Suppressed	2763885	Suppressed
+	"Utah"	"49"	"2011"	"2011"	Suppressed	2817222	Suppressed
+	"Utah"	"49"	"2012"	"2012"	Suppressed	2855287	Suppressed
+	"Utah"	"49"	"2013"	"2013"	Suppressed	2900872	Suppressed
+	"Utah"	"49"	"2014"	"2014"	Suppressed	2942902	Suppressed
+	"Utah"	"49"	"2015"	"2015"	Suppressed	2995919	Suppressed
+	"Utah"	"49"	"2016"	"2016"	Suppressed	3051217	Suppressed
+	"Utah"	"49"	"2017"	"2017"	Suppressed	3101833	Suppressed
+	"Utah"	"49"	"2018"	"2018"	Suppressed	3161105	Suppressed
+	"Utah"	"49"	"2019"	"2019"	Suppressed	3205958	Suppressed
+"Total"	"Utah"	"49"			Suppressed	56570520	Suppressed
+	"Vermont"	"50"	"1999"	"1999"	Suppressed	604683	Suppressed
+	"Vermont"	"50"	"2000"	"2000"	Suppressed	608827	Suppressed
+	"Vermont"	"50"	"2001"	"2001"	Suppressed	612223	Suppressed
+	"Vermont"	"50"	"2002"	"2002"	Suppressed	615442	Suppressed
+	"Vermont"	"50"	"2003"	"2003"	Suppressed	617858	Suppressed
+	"Vermont"	"50"	"2004"	"2004"	Suppressed	619920	Suppressed
+	"Vermont"	"50"	"2005"	"2005"	Suppressed	621215	Suppressed
+	"Vermont"	"50"	"2006"	"2006"	Suppressed	622892	Suppressed
+	"Vermont"	"50"	"2007"	"2007"	Suppressed	623481	Suppressed
+	"Vermont"	"50"	"2008"	"2008"	Suppressed	624151	Suppressed
+	"Vermont"	"50"	"2009"	"2009"	Suppressed	624817	Suppressed
+	"Vermont"	"50"	"2010"	"2010"	Suppressed	625741	Suppressed
+	"Vermont"	"50"	"2011"	"2011"	Suppressed	626431	Suppressed
+	"Vermont"	"50"	"2012"	"2012"	Suppressed	626011	Suppressed
+	"Vermont"	"50"	"2013"	"2013"	Suppressed	626630	Suppressed
+	"Vermont"	"50"	"2014"	"2014"	Suppressed	626562	Suppressed
+	"Vermont"	"50"	"2015"	"2015"	Suppressed	626042	Suppressed
+	"Vermont"	"50"	"2016"	"2016"	Suppressed	624594	Suppressed
+	"Vermont"	"50"	"2017"	"2017"	Suppressed	623657	Suppressed
+	"Vermont"	"50"	"2018"	"2018"	Suppressed	626299	Suppressed
+	"Vermont"	"50"	"2019"	"2019"	Suppressed	623989	Suppressed
+"Total"	"Vermont"	"50"			Suppressed	13051465	Suppressed
+	"Virginia"	"51"	"1999"	"1999"	Suppressed	7000174	Suppressed
+	"Virginia"	"51"	"2000"	"2000"	Suppressed	7078515	Suppressed
+	"Virginia"	"51"	"2001"	"2001"	Suppressed	7198362	Suppressed
+	"Virginia"	"51"	"2002"	"2002"	Suppressed	7286873	Suppressed
+	"Virginia"	"51"	"2003"	"2003"	Suppressed	7366977	Suppressed
+	"Virginia"	"51"	"2004"	"2004"	Suppressed	7475575	Suppressed
+	"Virginia"	"51"	"2005"	"2005"	Suppressed	7577105	Suppressed
+	"Virginia"	"51"	"2006"	"2006"	Suppressed	7673725	Suppressed
+	"Virginia"	"51"	"2007"	"2007"	Suppressed	7751000	Suppressed
+	"Virginia"	"51"	"2008"	"2008"	Suppressed	7833496	Suppressed
+	"Virginia"	"51"	"2009"	"2009"	Suppressed	7925937	Suppressed
+	"Virginia"	"51"	"2010"	"2010"	Suppressed	8001024	Suppressed
+	"Virginia"	"51"	"2011"	"2011"	Suppressed	8096604	Suppressed
+	"Virginia"	"51"	"2012"	"2012"	Suppressed	8185867	Suppressed
+	"Virginia"	"51"	"2013"	"2013"	Suppressed	8260405	Suppressed
+	"Virginia"	"51"	"2014"	"2014"	Suppressed	8326289	Suppressed
+	"Virginia"	"51"	"2015"	"2015"	Suppressed	8382993	Suppressed
+	"Virginia"	"51"	"2016"	"2016"	Suppressed	8411808	Suppressed
+	"Virginia"	"51"	"2017"	"2017"	Suppressed	8470020	Suppressed
+	"Virginia"	"51"	"2018"	"2018"	Suppressed	8517685	Suppressed
+	"Virginia"	"51"	"2019"	"2019"	Suppressed	8535519	Suppressed
+"Total"	"Virginia"	"51"			Suppressed	165355953	Suppressed
+	"Washington"	"53"	"1999"	"1999"	Suppressed	5842564	Suppressed
+	"Washington"	"53"	"2000"	"2000"	Suppressed	5894121	Suppressed
+	"Washington"	"53"	"2001"	"2001"	Suppressed	5985722	Suppressed
+	"Washington"	"53"	"2002"	"2002"	Suppressed	6052349	Suppressed
+	"Washington"	"53"	"2003"	"2003"	Suppressed	6104115	Suppressed
+	"Washington"	"53"	"2004"	"2004"	Suppressed	6178645	Suppressed
+	"Washington"	"53"	"2005"	"2005"	Suppressed	6257305	Suppressed
+	"Washington"	"53"	"2006"	"2006"	Suppressed	6370753	Suppressed
+	"Washington"	"53"	"2007"	"2007"	Suppressed	6461587	Suppressed
+	"Washington"	"53"	"2008"	"2008"	Suppressed	6562231	Suppressed
+	"Washington"	"53"	"2009"	"2009"	Suppressed	6667426	Suppressed
+	"Washington"	"53"	"2010"	"2010"	Suppressed	6724540	Suppressed
+	"Washington"	"53"	"2011"	"2011"	Suppressed	6830038	Suppressed
+	"Washington"	"53"	"2012"	"2012"	Suppressed	6897012	Suppressed
+	"Washington"	"53"	"2013"	"2013"	Suppressed	6971406	Suppressed
+	"Washington"	"53"	"2014"	"2014"	Suppressed	7061530	Suppressed
+	"Washington"	"53"	"2015"	"2015"	Suppressed	7170351	Suppressed
+	"Washington"	"53"	"2016"	"2016"	Suppressed	7288000	Suppressed
+	"Washington"	"53"	"2017"	"2017"	Suppressed	7405743	Suppressed
+	"Washington"	"53"	"2018"	"2018"	Suppressed	7535591	Suppressed
+	"Washington"	"53"	"2019"	"2019"	Suppressed	7614893	Suppressed
+"Total"	"Washington"	"53"			Suppressed	139875922	Suppressed
+	"West Virginia"	"54"	"1999"	"1999"	Suppressed	1811799	Suppressed
+	"West Virginia"	"54"	"2000"	"2000"	Suppressed	1808344	Suppressed
+	"West Virginia"	"54"	"2001"	"2001"	Suppressed	1801481	Suppressed
+	"West Virginia"	"54"	"2002"	"2002"	Suppressed	1805414	Suppressed
+	"West Virginia"	"54"	"2003"	"2003"	Suppressed	1812295	Suppressed
+	"West Virginia"	"54"	"2004"	"2004"	Suppressed	1816438	Suppressed
+	"West Virginia"	"54"	"2005"	"2005"	Suppressed	1820492	Suppressed
+	"West Virginia"	"54"	"2006"	"2006"	Suppressed	1827912	Suppressed
+	"West Virginia"	"54"	"2007"	"2007"	Suppressed	1834052	Suppressed
+	"West Virginia"	"54"	"2008"	"2008"	Suppressed	1840310	Suppressed
+	"West Virginia"	"54"	"2009"	"2009"	Suppressed	1847775	Suppressed
+	"West Virginia"	"54"	"2010"	"2010"	Suppressed	1852994	Suppressed
+	"West Virginia"	"54"	"2011"	"2011"	Suppressed	1855364	Suppressed
+	"West Virginia"	"54"	"2012"	"2012"	Suppressed	1855413	Suppressed
+	"West Virginia"	"54"	"2013"	"2013"	Suppressed	1854304	Suppressed
+	"West Virginia"	"54"	"2014"	"2014"	Suppressed	1850326	Suppressed
+	"West Virginia"	"54"	"2015"	"2015"	Suppressed	1844128	Suppressed
+	"West Virginia"	"54"	"2016"	"2016"	Suppressed	1831102	Suppressed
+	"West Virginia"	"54"	"2017"	"2017"	Suppressed	1815857	Suppressed
+	"West Virginia"	"54"	"2018"	"2018"	Suppressed	1805832	Suppressed
+	"West Virginia"	"54"	"2019"	"2019"	Suppressed	1792147	Suppressed
+"Total"	"West Virginia"	"54"			Suppressed	38383779	Suppressed
+	"Wisconsin"	"55"	"1999"	"1999"	Suppressed	5332666	Suppressed
+	"Wisconsin"	"55"	"2000"	"2000"	Suppressed	5363675	Suppressed
+	"Wisconsin"	"55"	"2001"	"2001"	Suppressed	5406835	Suppressed
+	"Wisconsin"	"55"	"2002"	"2002"	Suppressed	5445162	Suppressed
+	"Wisconsin"	"55"	"2003"	"2003"	Suppressed	5479203	Suppressed
+	"Wisconsin"	"55"	"2004"	"2004"	Suppressed	5514026	Suppressed
+	"Wisconsin"	"55"	"2005"	"2005"	Suppressed	5546166	Suppressed
+	"Wisconsin"	"55"	"2006"	"2006"	Suppressed	5577655	Suppressed
+	"Wisconsin"	"55"	"2007"	"2007"	Suppressed	5610775	Suppressed
+	"Wisconsin"	"55"	"2008"	"2008"	Suppressed	5640996	Suppressed
+	"Wisconsin"	"55"	"2009"	"2009"	Suppressed	5669264	Suppressed
+	"Wisconsin"	"55"	"2010"	"2010"	Suppressed	5686986	Suppressed
+	"Wisconsin"	"55"	"2011"	"2011"	Suppressed	5711767	Suppressed
+	"Wisconsin"	"55"	"2012"	"2012"	Suppressed	5726398	Suppressed
+	"Wisconsin"	"55"	"2013"	"2013"	Suppressed	5742713	Suppressed
+	"Wisconsin"	"55"	"2014"	"2014"	Suppressed	5757564	Suppressed
+	"Wisconsin"	"55"	"2015"	"2015"	Suppressed	5771337	Suppressed
+	"Wisconsin"	"55"	"2016"	"2016"	Suppressed	5778708	Suppressed
+	"Wisconsin"	"55"	"2017"	"2017"	Suppressed	5795483	Suppressed
+	"Wisconsin"	"55"	"2018"	"2018"	Suppressed	5813568	Suppressed
+	"Wisconsin"	"55"	"2019"	"2019"	Suppressed	5822434	Suppressed
+"Total"	"Wisconsin"	"55"			Suppressed	118193381	Suppressed
+	"Wyoming"	"56"	"1999"	"1999"	Suppressed	491780	Suppressed
+	"Wyoming"	"56"	"2000"	"2000"	Suppressed	493782	Suppressed
+	"Wyoming"	"56"	"2001"	"2001"	Suppressed	494657	Suppressed
+	"Wyoming"	"56"	"2002"	"2002"	Suppressed	500017	Suppressed
+	"Wyoming"	"56"	"2003"	"2003"	Suppressed	503453	Suppressed
+	"Wyoming"	"56"	"2004"	"2004"	Suppressed	509106	Suppressed
+	"Wyoming"	"56"	"2005"	"2005"	Suppressed	514157	Suppressed
+	"Wyoming"	"56"	"2006"	"2006"	Suppressed	522667	Suppressed
+	"Wyoming"	"56"	"2007"	"2007"	Suppressed	534876	Suppressed
+	"Wyoming"	"56"	"2008"	"2008"	Suppressed	546043	Suppressed
+	"Wyoming"	"56"	"2009"	"2009"	Suppressed	559851	Suppressed
+	"Wyoming"	"56"	"2010"	"2010"	Suppressed	563626	Suppressed
+	"Wyoming"	"56"	"2011"	"2011"	Suppressed	568158	Suppressed
+	"Wyoming"	"56"	"2012"	"2012"	Suppressed	576412	Suppressed
+	"Wyoming"	"56"	"2013"	"2013"	Suppressed	582658	Suppressed
+	"Wyoming"	"56"	"2014"	"2014"	Suppressed	584153	Suppressed
+	"Wyoming"	"56"	"2015"	"2015"	Suppressed	586107	Suppressed
+	"Wyoming"	"56"	"2016"	"2016"	Suppressed	585501	Suppressed
+	"Wyoming"	"56"	"2017"	"2017"	Suppressed	579315	Suppressed
+	"Wyoming"	"56"	"2018"	"2018"	Suppressed	577737	Suppressed
+	"Wyoming"	"56"	"2019"	"2019"	Suppressed	578759	Suppressed
+"Total"	"Wyoming"	"56"			Suppressed	11452815	Suppressed
+"Total"					62	6416872524	0.0
+"---"
+"Dataset: Multiple Cause of Death, 1999-2019"
+"Query Parameters:"
+"Title: Opium"
+"MCD - ICD-10 Codes: T40.0 (Opium)"
+"Group By: State; Year"
+"Show Totals: True"
+"Show Zero Values: True"
+"Show Suppressed: True"
+"Calculate Rates Per: 100,000"
+"Rate Options: Default intercensal populations for years 2001-2009 (except Infant Age Groups)"
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/mcd.html for more information."
+"---"
+"Query Date: Sep 30, 2021 4:25:59 PM"
+"---"
+"Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. Multiple Cause of Death"
+"1999-2019 on CDC WONDER Online Database, released in 2020. Data are from the Multiple Cause of Death Files, 1999-2019, as"
+"compiled from data provided by the 57 vital statistics jurisdictions through the Vital Statistics Cooperative Program. Accessed"
+"at http://wonder.cdc.gov/mcd-icd10.html on Sep 30, 2021 4:25:59 PM"
+"---"
+Caveats:
+"1. As of April 3, 2017, the underlying cause of death has been revised for 125 deaths in 2014. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd.html#2014-Revision."
+"2. Circumstances in Georgia for the years 2008 and 2009 have resulted in unusually high death counts for the ICD-10 cause of"
+"death code R99, ""Other ill-defined and unspecified causes of mortality."" Caution should be used in interpreting these data."
+"More information: http://wonder.cdc.gov/wonder/help/mcd.html#Georgia-Reporting-Anomalies."
+"3. Circumstances in New Jersey for the year 2009 have resulted in unusually high death counts for the ICD-10 cause of death code"
+"R99, ""Other ill-defined and unspecified causes of mortality"" and therefore unusually low death counts in other ICD-10 codes,"
+"most notably R95, ""Sudden Infant Death Syndrome"" and X40-X49, ""Unintentional poisoning."" Caution should be used in"
+"interpreting these data. More information: http://wonder.cdc.gov/wonder/help/mcd.html#New-Jersey-Reporting-Anomalies."
+"4. Circumstances in California resulted in unusually high death counts for the ICD-10 cause of death code R99, ""Other"
+"ill-defined and unspecified causes of mortality"" for deaths occurring in years 2000 and 2001. Caution should be used in"
+"interpreting these data. More information: http://wonder.cdc.gov/wonder/help/mcd.html#California-Reporting-Anomalies."
+"5. Data are Suppressed when the data meet the criteria for confidentiality constraints. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd.html#Assurance of Confidentiality."
+"6. The population figures for year 2019 are bridged-race estimates of the July 1 resident population, from the Vintage 2019"
+"postcensal series released by NCHS on July 9, 2020. The population figures for year 2018 are bridged-race estimates of the July"
+"1 resident population, from the Vintage 2018 postcensal series released by NCHS on June 25, 2019. The population figures for"
+"year 2017 are bridged-race estimates of the July 1 resident population, from the Vintage 2017 postcensal series released by NCHS"
+"on June 27, 2018. The population figures for year 2016 are bridged-race estimates of the July 1 resident population, from the"
+"Vintage 2016 postcensal series released by NCHS on June 26, 2017. The population figures for year 2015 are bridged-race"
+"estimates of the July 1 resident population, from the Vintage 2015 postcensal series released by NCHS on June 28, 2016. The"
+"population figures for year 2014 are bridged-race estimates of the July 1 resident population, from the Vintage 2014 postcensal"
+"series released by NCHS on June 30, 2015. The population figures for year 2013 are bridged-race estimates of the July 1 resident"
+"population, from the Vintage 2013 postcensal series released by NCHS on June 26, 2014. The population figures for year 2012 are"
+"bridged-race estimates of the July 1 resident population, from the Vintage 2012 postcensal series released by NCHS on June 13,"
+"2013. Population figures for 2011 are bridged-race estimates of the July 1 resident population, from the county-level postcensal"
+"Vintage 2011 series released by NCHS on July 18, 2012. Population figures for 2010 are April 1 Census counts. The population"
+"figures for years 2001 - 2009, are bridged-race estimates of the July 1 resident population, from the revised intercensal"
+"county-level 2000 - 2009 series released by NCHS on October 26, 2012. Population figures for 2000 are April 1 Census counts."
+"Population figures for 1999 are from the 1990-1999 intercensal series of July 1 estimates. Population figures for Infant Age"
+"Groups are the number of live births. <br/><b>Note:</b> Rates and population figures for years 2001 - 2009 differ slightly from"
+"previously published reports, due to use of the population estimates which were available at the time of release."
+"7. The population figures used in the calculation of death rates for the age group 'under 1 year' are the estimates of the"
+"resident population that is under one year of age. More information: http://wonder.cdc.gov/wonder/help/mcd.html#Age Group."
+"8. Changes to cause of death classification affect reporting trends. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd.html#ICD-10 Changes."

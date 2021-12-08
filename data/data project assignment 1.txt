@@ -1,0 +1,52 @@
+I would like to study the effects of various state level drug policies on opioid overdose mortality using a Difference in Differences Framework. The Policies I will evaluate are Good Samaritan Law,  Morphine Equivalent Daily Dose (MEDD) Law, Decriminalization of Paraphernalia, Naloxone Access Laws (NAL), Medical Marijuana Laws, and Prescription Drug Monitoring (PDMP) Laws. I will use data from lawatlas.org and the Prescription Drug Abuse Policy System (PDAPS) for policy data and CDC deaths data for the outcome variable.
+
+I plan to control for one national policy change, the reformulation of Oxycontin to deter abuse of prescription opioids, in an appendix table model, but as a national policy (varying over time but not across states) this is already controlled for in the model.
+
+Data Sources:
+
+Overdose deaths (state, year, and month)
+https://data.cdc.gov/NCHS/VSRR-Provisional-Drug-Overdose-Death-Counts/xkb8-kh2a
+
+*data are current, but only go back to 2015
+
+or
+
+https://wonder.cdc.gov/mcd.html
+
+*would allow me to demonstrate a longer pre-trend, but data are less current
+
+I could use both data sources to construct the panel, but this would be more work and difficult to ensure that I am "stacking" them correctly (without bias.)
+
+Good Samaratan Laws by state over time
+http://pdaps.org/datasets/good-samaritan-overdose-laws-1501695153
+through June 1, 2021.
+
+MEDD policies
+http://lawatlas.org/datasets/morphine-equivalent-daily-dose-medd-policies
+June 1, 2017
+
+Paraphernalia laws
+http://lawatlas.org/datasets/paraphernalia-laws
+This is a longitudinal dataset, and captures laws in effect from July 1, 2012 through July 1, 2017
+
+Reformulation of Oxycontin effective date
+w24475.pdf (nber.org)
+
+Naloxone Access Laws
+http://pdaps.org/datasets/laws-regulating-administration-of-naloxone-1501695139
+January 1, 2001 through July 1, 2017
+
+Medical Marijuana Laws
+http://pdaps.org/datasets/medical-marijuana-patient-related-laws-1501600783
+This dataset is longitudinal displaying laws effective as of January 1, 2014 through February 1, 2017
+
+PDMP
+http://pdaps.org/datasets/prescription-monitoring-program-laws-1408223332-1502818372
+
+http://pdaps.org/datasets/pdmp-implementation-dates
+
+Comprehensive documentation exist for all the tables I link to above.
+
+Links between these datasets should be possible via the abbreviation of the state name, month, and year. Using these linkages, I should be able to construct a panel dataset with opioid overdose deaths and the explanatory policy variables I am interested in.
+
+Since many of the laws are not updated past 2017, I'll probably restrict my analysis to years before 2018.

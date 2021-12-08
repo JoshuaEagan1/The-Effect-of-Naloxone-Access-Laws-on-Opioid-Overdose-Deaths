@@ -1,0 +1,7 @@
+state by year aggregated drug treatment occurrances: https://www.samhsa.gov/data/data-we-collect/teds-treatment-episode-data-set
+
+drug related emergency room visits
+https://www.hcup-us.ahrq.gov/databases.jsp
+
+The data provide estimates of substance use and mental illness at the national, state, and substate levels. NSDUH data also help to identify the extent of substance use and mental illness among different subgroups, estimate trends over time, and determine the need for treatment services.
+https://www.samhsa.gov/data/data-we-collect/nsduh-national-survey-drug-use-and-health

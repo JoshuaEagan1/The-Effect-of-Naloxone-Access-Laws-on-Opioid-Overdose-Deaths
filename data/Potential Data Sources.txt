@@ -1,0 +1,46 @@
+Data Sources:
+
+Overdose deaths (state, year, and month)
+https://data.cdc.gov/NCHS/VSRR-Provisional-Drug-Overdose-Death-Counts/xkb8-kh2a
+
+*data are current, but only go back to 2015
+
+or
+
+https://wonder.cdc.gov/mcd.html
+
+*would allow me to demonstrate a longer pre-trend, but data are less current
+
+I could use both data sources to construct the panel, but this would be more work and difficult to ensure that I am "stacking" them correctly (without bias.)
+
+how this would work: I would need a separate query for each individual category I want to investigate. One query for "Number of Deaths", "opioid overdose deaths", "Synthetic opioids, excl. methadone" (ie. fentenyl), and one for "drug overdose deaths". maybe add two more, one for cocaine deaths and one for meth deaths.
+
+
+
+Good Samaratan Laws by state over time
+http://pdaps.org/datasets/good-samaritan-overdose-laws-1501695153
+
+MEDD policies
+http://lawatlas.org/datasets/morphine-equivalent-daily-dose-medd-policies
+
+Paraphernalia laws
+http://lawatlas.org/datasets/paraphernalia-laws
+
+Reformulation of Oxycontin effective date
+https://www.nber.org/system/files/working_papers/w24475/w24475.pdf
+
+Naloxone Access Laws
+http://pdaps.org/datasets/laws-regulating-administration-of-naloxone-1501695139
+
+Medical Marijuana Laws
+http://pdaps.org/datasets/medical-marijuana-patient-related-laws-1501600783
+
+PDMP
+http://pdaps.org/datasets/prescription-monitoring-program-laws-1408223332-1502818372
+through July 1, 2016.
+
+http://pdaps.org/datasets/pdmp-implementation-dates
+
+Comprehensive documentation exist for all the tables I link to above.
+
+Links between these datasets should be possible via the abbreviation of the state name, month, and year. Using these linkages, I should be able to construct a panel dataset with opioid overdose deaths and the explanatory policy variables I am interested in.
